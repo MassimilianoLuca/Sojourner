@@ -10248,6 +10248,119 @@ Standards bodies should promote a standard prefix for the identifiers of propert
     
 
 
+    <!-- http://www.semanticweb.org/orione/sojourner#has_addDomain -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#has_addDomain">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#relational_property"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/orione/sojourner#is_appDomain"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/orione/sojourner#ApplicationDomain"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#has_author -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#has_author">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#relational_property"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/orione/sojourner#is_author"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/orione/sojourner#Author"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#has_representation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#has_representation">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#relational_property"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/orione/sojourner#is_representation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Construct"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/orione/sojourner#Representation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#has_version -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#has_version">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#relational_property"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/orione/sojourner#is_version"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#is_appDomain -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#is_appDomain">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#relational_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#ApplicationDomain"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#is_author -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#is_author">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#relational_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Author"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#is_produced -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#is_produced">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#relational_property"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/orione/sojourner#produce_a"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModelDiagram"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/orione/sojourner#Construct"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#is_representation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#is_representation">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#relational_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Representation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/orione/sojourner#Construct"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#is_version -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#is_version">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#relational_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#produce_a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#produce_a">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#relational_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Construct"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModelDiagram"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#relational_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#relational_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
