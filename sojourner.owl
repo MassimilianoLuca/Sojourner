@@ -13157,6 +13157,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://schema.org/ImageObject -->
 
     <owl:Class rdf:about="http://schema.org/ImageObject">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/orione/sojourner#Representation"/>
         <rdfs:subClassOf rdf:resource="http://schema.org/MediaObject"/>
         <rdfs:comment>An image file.</rdfs:comment>
         <rdfs:label>ImageObject</rdfs:label>
@@ -16739,6 +16740,10 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
 
     <owl:Class rdf:about="http://www.semanticweb.org/orione/sojourner#Author">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://schema.org/Organization"/>
+            <rdf:Description rdf:about="http://schema.org/Person"/>
+        </owl:disjointUnionOf>
     </owl:Class>
     
 
