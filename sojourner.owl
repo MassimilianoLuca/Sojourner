@@ -10248,6 +10248,136 @@ Standards bodies should promote a standard prefix for the identifiers of propert
     
 
 
+    <!-- http://www.semanticweb.org/orione/sojourner#a_papertitle_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#a_papertitle_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#author_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Author"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#a_referencepaper_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#a_referencepaper_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#author_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Author"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#ad_name_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#ad_name_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#applicationdomain_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#ApplicationDomain"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#applicationdomain_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#applicationdomain_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#value_property_property"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#author_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#author_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#value_property_property"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#c_description_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#c_description_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#construct_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Construct"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#c_design_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#c_design_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#construct_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Construct"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#c_name_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#c_name_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#construct_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Construct"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#cm_name_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#cm_name_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#conceptualmodel_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#cm_type_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#cm_type_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#conceptualmodel_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#conceptualmodel_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#conceptualmodel_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#value_property_property"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#construct_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#construct_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#value_property_property"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#documentproduced_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#documentproduced_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#value_property_property"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#dp_example_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#dp_example_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#documentproduced_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModelDiagram"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#dp_is_human_readable_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#dp_is_human_readable_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#documentproduced_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModelDiagram"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/orione/sojourner#has_addDomain -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#has_addDomain">
@@ -10357,6 +10487,76 @@ Standards bodies should promote a standard prefix for the identifiers of propert
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#relational_property">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#v_is_last_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#v_is_last_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#version_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#v_is_maintened_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#v_is_maintened_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#version_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#v_is_standard_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#v_is_standard_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#version_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#v_name_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#v_name_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#version_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#v_release_date_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#v_release_date_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#version_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#v_version_no_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#v_version_no_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#version_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#value_property_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#value_property_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#version_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#version_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#value_property_property"/>
     </owl:ObjectProperty>
     
 
