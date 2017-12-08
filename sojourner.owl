@@ -16730,6 +16730,15 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
 
     <owl:Class rdf:about="http://www.semanticweb.org/orione/sojourner#ApplicationDomain">
         <rdfs:subClassOf rdf:resource="http://schema.org/Intangible"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/orione/sojourner#Author -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/orione/sojourner#Author">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
     </owl:Class>
     
 
@@ -16737,7 +16746,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/orione/sojourner#Construct -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/orione/sojourner#Construct">
-        <rdfs:subClassOf rdf:resource="http://schema.org/Intangible"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
         <rdfs:comment xml:lang="en">A construct for build something more complex</rdfs:comment>
         <rdfs:label>Construct</rdfs:label>
     </owl:Class>
@@ -18229,6 +18238,25 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/ns/regorg#RegisteredOrganization">
         <skos:closeMatch rdf:resource="http://schema.org/LocalBusiness"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/orione/sojourner#ApplicationDomain"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/orione/sojourner#Author"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/orione/sojourner#Construct"/>
+        </owl:members>
     </rdf:Description>
 </rdf:RDF>
 
