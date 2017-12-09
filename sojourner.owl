@@ -17045,6 +17045,9 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <owl:Class rdf:about="http://www.semanticweb.org/orione/sojourner#ApplicationDomain">
         <rdfs:subClassOf rdf:resource="http://schema.org/Intangible"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+        <rdfs:comment xml:lang="en">a specified sphere of activity or knowledge</rdfs:comment>
+        <rdfs:isDefinedBy>wordnet -&gt; 6008444</rdfs:isDefinedBy>
+        <rdfs:label>ApplicationDomain</rdfs:label>
     </owl:Class>
     
 
@@ -17057,6 +17060,9 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
             <rdf:Description rdf:about="http://schema.org/Organization"/>
             <rdf:Description rdf:about="http://schema.org/Person"/>
         </owl:disjointUnionOf>
+        <rdfs:comment xml:lang="en">an originator or creator of something, especially a plan or idea. It this case, the creator of the conceptual model</rdfs:comment>
+        <rdfs:isDefinedBy>wordnet -&gt; 10813654</rdfs:isDefinedBy>
+        <rdfs:label>Author</rdfs:label>
     </owl:Class>
     
 
@@ -17066,6 +17072,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <owl:Class rdf:about="http://www.semanticweb.org/orione/sojourner#Construct">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
         <rdfs:comment xml:lang="en">A construct for build something more complex</rdfs:comment>
+        <rdfs:isDefinedBy>wordnet -&gt; 5844071</rdfs:isDefinedBy>
         <rdfs:label>Construct</rdfs:label>
     </owl:Class>
     
@@ -17075,6 +17082,9 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
 
     <owl:Class rdf:about="http://www.semanticweb.org/orione/sojourner#Representation">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/orione/sojourner#Construct"/>
+        <rdfs:comment xml:lang="en">the description or portrayal of someone or something in a particular way or as being of a certain nature</rdfs:comment>
+        <rdfs:isDefinedBy>wordnet -&gt; 05935308</rdfs:isDefinedBy>
+        <rdfs:label>Representation</rdfs:label>
     </owl:Class>
     
 
@@ -17083,6 +17093,9 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
 
     <owl:Class rdf:about="http://www.semanticweb.org/orione/sojourner#Version">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModel"/>
+        <rdfs:comment>a particular release of a piece of computer software or a different representation of a conceptual model</rdfs:comment>
+        <rdfs:isDefinedBy>Wordnet -&gt; 5849159</rdfs:isDefinedBy>
+        <rdfs:label>Version</rdfs:label>
     </owl:Class>
     
 
@@ -17091,6 +17104,9 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
 
     <owl:Class rdf:about="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModel">
         <rdfs:subClassOf rdf:resource="http://schema.org/Intangible"/>
+        <rdfs:comment>A conceptual model is a representation of a system, made of the composition of concepts which are used to help people know, understand, or simulate a subject the model represents.</rdfs:comment>
+        <rdfs:isDefinedBy>Wordnet -&gt; 3782816</rdfs:isDefinedBy>
+        <rdfs:label>ConceptualModel</rdfs:label>
     </owl:Class>
     
 
@@ -17099,6 +17115,9 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
 
     <owl:Class rdf:about="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModelDiagram">
         <rdfs:subClassOf rdf:resource="http://schema.org/CreativeWork"/>
+        <rdfs:comment>A diagram produced by a conceptual model</rdfs:comment>
+        <rdfs:isDefinedBy>Wordnet -&gt; 6481744</rdfs:isDefinedBy>
+        <rdfs:label>ConceptualModelDiagram</rdfs:label>
     </owl:Class>
     
 
