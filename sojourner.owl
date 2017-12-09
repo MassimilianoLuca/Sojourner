@@ -6,6 +6,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:sojourner="http://www.semanticweb.org/orione/sojourner#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
@@ -94,6 +95,12 @@
     <!-- http://schema.org/Time -->
 
     <rdfs:Datatype rdf:about="http://schema.org/Time"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
     
 
 
@@ -10449,7 +10456,7 @@ Standards bodies should promote a standard prefix for the identifiers of propert
     <!-- http://www.semanticweb.org/orione/sojourner#cm_name_dataproperty -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/orione/sojourner#cm_name_dataproperty">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sojourner#conceptualmodel_dataproperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModel"/>
     </owl:DatatypeProperty>
     
@@ -10458,7 +10465,7 @@ Standards bodies should promote a standard prefix for the identifiers of propert
     <!-- http://www.semanticweb.org/orione/sojourner#cm_type_dataproperty -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/orione/sojourner#cm_type_dataproperty">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sojourner#conceptualmodel_dataproperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModel"/>
     </owl:DatatypeProperty>
     
@@ -10555,6 +10562,14 @@ Standards bodies should promote a standard prefix for the identifiers of propert
     <!-- http://www.semanticweb.org/orione/sojourner#version_dataproperty -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/orione/sojourner#version_dataproperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sojourner#conceptualmodel_dataproperty -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sojourner#conceptualmodel_dataproperty">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
     </owl:DatatypeProperty>
     
@@ -18300,6 +18315,378 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
         <rdf:type rdf:resource="http://schema.org/BoardingPolicyType"/>
         <rdfs:comment>The airline boards by zones of the plane.</rdfs:comment>
         <rdfs:label>ZoneBoardingPolicy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sojourner#b103e18fc6570018b316592c779eab18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#b103e18fc6570018b316592c779eab18">
+        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+        <sojourner:v_is_last_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_last_dataproperty>
+        <sojourner:v_is_mainteined_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_mainteined_dataproperty>
+        <sojourner:v_is_standard_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_standard_dataproperty>
+        <sojourner:v_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDEF1x</sojourner:v_name_dataproperty>
+        <sojourner:v_release_date_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1981</sojourner:v_release_date_dataproperty>
+        <sojourner:v_version_no_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</sojourner:v_version_no_dataproperty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722">
+        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Construct"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModelDiagram"/>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> an attribute that can have many values (there are many distinct values entered for it in the same column of the table). Multivalued attribute is depicted by a dual oval</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> an attribute whose value is calculated (derived) from other attributes. The derived attribute may or may not be physically stored in the database</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mandatory relationship is a relationship that have to exist</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A relationship set, Ri, is a mathematical relation among n entities, each taken from an entity set: (Gel, e2, . . . , e,] 1 el E El, e2 E E2, . . . , e, E En},and each tuple of entities, [el, et, , . . , e,], is a relationship. </sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An attribute can be formally defined as a function which maps from an entity set or a relationship set into a value set or a Cartesian product of value sets: f: Ei or Ri + Vi or Vi, X Vi, X *-a X Vi,.</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An optional relationship is a relationship that could exist</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multiple entities in the set are involved in the relationship with multiple entities of the other set</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Only a single entity in the set is involved in the relationship with a single entity of the other set</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Only a single entity in the set is involved in the relationship with multiple entities of the other set</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Partial participation means that not all entities in the set are involved in the relationship</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Total participation means that every entity in the set is involved in the relationship</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a relationship where Child entity is existence-dependent on parent, and PK of Child Entity contains PK component of Parent Entity</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an attribute that uniquely identifies a particular entity. The name of a key attribute is underscored</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an attribute that, when combined with the key attribute of the owner entity, provides a unique identification for the weak entity. We underline the discriminator with a dashed line</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an entity that cannot be uniquely identified by its attributes alone. The existence of a weak entity is dependent upon another entity called the owner entity. The weak entity’s identifier is a combination of the identifier of the owner entity and the partial key of the weak entity.</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an entity used in a many-to-many relationship (represents an extra table). All relationships for the associative entity should be many</sojourner:c_description_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A composite attribute is an attribute composed by different attributes that could be of different type</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A derived attribute is represented by dashed oval</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A key attribute is represented by an oval containing attribute&apos;s name that is underscored</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A key attribute is represented by an oval containing attribute&apos;s name that is underscored with a dashed line</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mandatory relationship is represented by a solid line</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A strong relationship is represented by a single rhombus</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A weak entity is represented by a dual rectangle which contains the entity’s name.</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A weak relationship is represented by a double rhombus</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An associative entity is represented by a diamond  which contains the entity’s name inside a rectangle.</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An attribute is represented by an oval containing attribute’s name</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An entity is represented by a rectangle which contains the entity’s name.</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An optional relationship is represented by a dashed line</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multivalued attribute is depicted by a dual ova</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented by a dual continuous line</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented by a single continuous line</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented putting letter N to both ends of the relationship line</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented putting number 1 to both ends of the relationship line</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented putting number 1 to the end line near the entity with a single element, and put letter N on the other side, near the multiple entity</sojourner:c_design_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">associative entity</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">attribute</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardinality 1-to-1</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardinality 1-to-many</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardinality many-to-many</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">composite attribute</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">derived attribute</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">key attribute</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mandatory relationship</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multivalued attribute</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">optional relationship</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial key attribute</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relationship partial participation</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relationship total participation</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">strong relationship</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">weak entity</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">weak relationship</sojourner:c_name_dataproperty>
+        <sojourner:d_example_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://drive.google.com/open?id=1iUYPQmz7WnHUN1Ry8GQDQv5UaWoRE2Wj</sojourner:d_example_dataproperty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sojourner#bb6eddd4ada5bb27aeba62e0d3c93198 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#bb6eddd4ada5bb27aeba62e0d3c93198">
+        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Author"/>
+        <sojourner:a_papertitle_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Entity-Relationship Model-Toward a Unified View of Data</sojourner:a_papertitle_dataproperty>
+        <sojourner:a_referencepaper_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pdfs.semanticscholar.org/3aa6/b6e378fc17b64f4920e2b5240be9a30477ca.pdf</sojourner:a_referencepaper_dataproperty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sojourner#de43ecd4a323227c3050c7af8788d528 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#de43ecd4a323227c3050c7af8788d528">
+        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#ApplicationDomain"/>
+        <sojourner:ad_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semantic Data Model</sojourner:ad_name_dataproperty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sojourner#e568b246d95cca0dbd7b492fed105c62 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#e568b246d95cca0dbd7b492fed105c62">
+        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+        <sojourner:v_is_last_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_last_dataproperty>
+        <sojourner:v_is_mainteined_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_mainteined_dataproperty>
+        <sojourner:v_is_standard_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_standard_dataproperty>
+        <sojourner:v_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Min-max notation</sojourner:v_name_dataproperty>
+        <sojourner:v_release_date_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1974</sojourner:v_release_date_dataproperty>
+        <sojourner:v_version_no_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</sojourner:v_version_no_dataproperty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sojourner#eb6d80b8d6ac0e4af512406c36e6cb39 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#eb6d80b8d6ac0e4af512406c36e6cb39">
+        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+        <sojourner:v_is_last_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_last_dataproperty>
+        <sojourner:v_is_mainteined_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_mainteined_dataproperty>
+        <sojourner:v_is_standard_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_standard_dataproperty>
+        <sojourner:v_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bachman</sojourner:v_name_dataproperty>
+        <sojourner:v_release_date_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1969</sojourner:v_release_date_dataproperty>
+        <sojourner:v_version_no_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</sojourner:v_version_no_dataproperty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sojourner#ef6bf3fd02c2c92bf0e156d4b5b818ac -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#ef6bf3fd02c2c92bf0e156d4b5b818ac">
+        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+        <sojourner:v_is_last_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_last_dataproperty>
+        <sojourner:v_is_mainteined_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_mainteined_dataproperty>
+        <sojourner:v_is_standard_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_standard_dataproperty>
+        <sojourner:v_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen</sojourner:v_name_dataproperty>
+        <sojourner:v_release_date_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#date">27820</sojourner:v_release_date_dataproperty>
+        <sojourner:v_version_no_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</sojourner:v_version_no_dataproperty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sojourner#f320481f1023bc24b5ddd63df99fdfc0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#f320481f1023bc24b5ddd63df99fdfc0">
+        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+        <sojourner:v_is_last_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_last_dataproperty>
+        <sojourner:v_is_mainteined_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_mainteined_dataproperty>
+        <sojourner:v_is_standard_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_standard_dataproperty>
+        <sojourner:v_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barker</sojourner:v_name_dataproperty>
+        <sojourner:v_version_no_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</sojourner:v_version_no_dataproperty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sojourner#1bd3a0484883ca6deaada8395a8f6e85 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#1bd3a0484883ca6deaada8395a8f6e85">
+        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModel"/>
+        <sojourner:cm_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ER</sojourner:cm_name_dataproperty>
+        <sojourner:cm_type_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ERD</sojourner:cm_type_dataproperty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sojourner#19820171d79755d0e58a16557ae00aef -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#19820171d79755d0e58a16557ae00aef">
+        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Author"/>
+        <sojourner:a_papertitle_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Structure Diagrams</sojourner:a_papertitle_dataproperty>
+        <sojourner:a_referencepaper_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.minet.uni-jena.de/dbis/lehre/ws2005/dbs1/Bachman-DataStructureDiagrams.pdf</sojourner:a_referencepaper_dataproperty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sojourner#30d38cb04e3bb774c8afe757c775ea8a -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#30d38cb04e3bb774c8afe757c775ea8a">
+        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+        <sojourner:v_is_last_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_last_dataproperty>
+        <sojourner:v_is_mainteined_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_mainteined_dataproperty>
+        <sojourner:v_is_standard_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_standard_dataproperty>
+        <sojourner:v_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{Express, Express G}</sojourner:v_name_dataproperty>
+        <sojourner:v_version_no_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</sojourner:v_version_no_dataproperty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sojourner#32f7023e6fb00da8ddc9ecbf366e592b -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#32f7023e6fb00da8ddc9ecbf366e592b">
+        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#ApplicationDomain"/>
+        <sojourner:ad_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computer Software Design</sojourner:ad_name_dataproperty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sojourner#40a221d6ee5706cee18adb4d1cdb304d -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#40a221d6ee5706cee18adb4d1cdb304d">
+        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Construct"/>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> its value cannot be null (identified by *)</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bar “|” across one end of a relationship line indicates that the relationship is a component of the primary identifier for the entity type at that end.</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Attributes are written inside the entities</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Different entities groupped together.</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Each entity instance is related to just one entity instance.</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Each entity instance is related to multiple entity instances.</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Each instance of an entity may be related to another instance</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Each instance of an entity must be related to another instance</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In certain situations, once a relationship is set it can never change. For example, BOOK and CHAPTER in the example below. Chapter can’t be moved to a different book. </sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multiple entity instances are related to multiple entity instances</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nested entities in a super entity</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">describe the characteristics of a particular entity instance</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">its value can be null (identified by O)</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uniquely identifies an entity instance (identified by #)</sojourner:c_description_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bar &quot;|&quot; across one end of a relationship</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represente by a crow foot on the relation line on the &quot;many side&quot;</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented by a dashed line</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented by a rhombus across the relationship line</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented by a rounded corner rectangle</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented by a rounded corner rectangle inside the super entity</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented by a rounded corner rectangle with the subentities inside</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented by a straight line</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented by the normal relation line</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented by the normal relation line with a crow foot on every edge</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Written inside the entity</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Written inside the entity and identified by #</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Written inside the entity and identified by *</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Written inside the entity and identified by O</sojourner:c_design_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandatory attribute</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Transferability of Relationships</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional attribute</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subtypes</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UID bar</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unique Identifier attribute</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">attributes</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mandatory relationship</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">many-to-many relationship</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">one-to-many relationship</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">one-to-one relationship</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">optional relationship</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">super type entity</sojourner:c_name_dataproperty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sojourner#449a6bb013f148e8b77b374e273e852d -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#449a6bb013f148e8b77b374e273e852d">
+        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#ApplicationDomain"/>
+        <sojourner:ad_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Database Systems</sojourner:ad_name_dataproperty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sojourner#730c69d1f7a55ab0c0decfeb43b6f673 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#730c69d1f7a55ab0c0decfeb43b6f673">
+        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+        <sojourner:v_is_last_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_last_dataproperty>
+        <sojourner:v_is_mainteined_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_mainteined_dataproperty>
+        <sojourner:v_is_standard_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_standard_dataproperty>
+        <sojourner:v_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crow foot</sojourner:v_name_dataproperty>
+        <sojourner:v_release_date_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1976</sojourner:v_release_date_dataproperty>
+        <sojourner:v_version_no_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</sojourner:v_version_no_dataproperty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sojourner#761f3d44387abb038e6c224263ada625 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#761f3d44387abb038e6c224263ada625">
+        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#ApplicationDomain"/>
+        <sojourner:ad_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SSADM and Information Engineering</sojourner:ad_name_dataproperty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sojourner#8f663e1c6a2760cbed43e36824577119 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#8f663e1c6a2760cbed43e36824577119">
+        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Construct"/>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A single instance of an entity can be associated with instances in the related entity.</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An attribute is a property that describes a particular entity.</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An entity is a representation of a class of object. It can be a person, place, thing, etc. Entities usually have attributes that describe them.</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multiple instances of an entity can be associated with instances of the related entity.</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relationships illustrate the association between two entities. Usually, each relationship has a name, expressed as a verb, written on the relationship line. This describes what kind of relationship connects the objects.</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of times one instance can be related to others is one</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of times one instance can be related to others is zero</sojourner:c_description_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An entity is represented by a rectangle divided in two horizontal part, with its name on the top. The name is singular (entity) rather than plural (entities).</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Attribtutes are written in the bottom part of the entity rectangle. The attribute(s) that uniquely distinguishes an instance of the entity is marked with an asterisk</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented by a perpendicualar line on the relationship line</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented by a straight line. The relationship has a name, expressed as a verb. </sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented by a vertical line on single entity side</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented by an empty circle on the relationship line</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented by the three-pronged ‘crow-foot’ symbol</sojourner:c_design_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">attribute</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardinality multiciplicity of many</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardinality multiciplicity of one</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mandatory relationship</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">optional relationship</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relationship</sojourner:c_name_dataproperty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sojourner#81d6f316d169150d0e8733866c38684d -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#81d6f316d169150d0e8733866c38684d">
+        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+        <sojourner:v_is_last_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_last_dataproperty>
+        <sojourner:v_is_mainteined_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_mainteined_dataproperty>
+        <sojourner:v_is_standard_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_standard_dataproperty>
+        <sojourner:v_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Martin</sojourner:v_name_dataproperty>
+        <sojourner:v_version_no_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</sojourner:v_version_no_dataproperty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sojourner#85217bd7cdfb7e94156aa6db4e20ad96 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#85217bd7cdfb7e94156aa6db4e20ad96">
+        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Construct"/>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A number of instances in range of n to m of the dependent entity are related to an instance of the independent entity</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property or characteristic that is common to some or all of the instances of an entity. An attribute represents the use of a domain in the context of an entity.</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exactly n instances of the dependent entity are related to an instance of the independent entity</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One or more instances of the dependent entity are related to an instance of the independent entity</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Representation of a class whose identifiers are not derived from other entities</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Representation of a class whose unique identifier includes at least one relationship to another entity</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zero or more instances of the dependent entity are related to an instance of the independent entity</sojourner:c_description_dataproperty>
+        <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zero, one or more instances of the dependent entity are related to an instance of the independent entity</sojourner:c_description_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A straight line where on the side of the dependent entity there is a full circle</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A straight line where on the side of the dependent entity there is a full circle and notation n-m</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A straight line where on the side of the dependent entity there is a full circle and notation {n}</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A straight line where on the side of the dependent entity there is a full circle and the letter P</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A straight line where on the side of the dependent entity there is a full circle and the letter Z</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A straight line where on the side of the dependent entity there is a full circle and the letter n</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented  by a round-cornered rectangle.  The name of the entity is usually situated above the rectangle</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented by a rectangle. The name of the entity is usually situated above the rectangle</sojourner:c_design_dataproperty>
+        <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To present attributes, the entity is divided into two parts. In the first one, there are primary key attributes, while the other contains attributes.</sojourner:c_design_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">attribute</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dependent entity</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">independent entity</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relationship cardinality specified</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relationship exactly from n to m</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relationship exactly n</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relationship one or more</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relationship zero one or more</sojourner:c_name_dataproperty>
+        <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relationship zero or more</sojourner:c_name_dataproperty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sojourner#8773b16a2313c21b7e9d2bb9ecac4b77 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#8773b16a2313c21b7e9d2bb9ecac4b77">
+        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+        <sojourner:v_is_last_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_last_dataproperty>
+        <sojourner:v_is_mainteined_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_mainteined_dataproperty>
+        <sojourner:v_is_standard_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_standard_dataproperty>
+        <sojourner:v_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORM2</sojourner:v_name_dataproperty>
+        <sojourner:v_version_no_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</sojourner:v_version_no_dataproperty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sojourner#97472994a8e5707451952eb7fc84d084 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#97472994a8e5707451952eb7fc84d084">
+        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#ApplicationDomain"/>
+        <sojourner:ad_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entity–relationship model</sojourner:ad_name_dataproperty>
     </owl:NamedIndividual>
     
 
