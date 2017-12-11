@@ -6,6 +6,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:sj="http://www.semanticweb.org/sojourner#"
      xmlns:sojourner="http://www.semanticweb.org/orione/sojourner#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
