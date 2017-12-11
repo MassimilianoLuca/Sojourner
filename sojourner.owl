@@ -18330,6 +18330,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#b103e18fc6570018b316592c779eab18 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#b103e18fc6570018b316592c779eab18">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
         <sojourner:v_is_last_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_last_dataproperty>
         <sojourner:v_is_mainteined_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_mainteined_dataproperty>
         <sojourner:v_is_standard_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_standard_dataproperty>
@@ -18343,6 +18344,8 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#ConceptualModelDiagram"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> an attribute that can have many values (there are many distinct values entered for it in the same column of the table). Multivalued attribute is depicted by a dual oval</sojourner:c_description_dataproperty>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> an attribute whose value is calculated (derived) from other attributes. The derived attribute may or may not be physically stored in the database</sojourner:c_description_dataproperty>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mandatory relationship is a relationship that have to exist</sojourner:c_description_dataproperty>
@@ -18403,6 +18406,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#bb6eddd4ada5bb27aeba62e0d3c93198 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#bb6eddd4ada5bb27aeba62e0d3c93198">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Author"/>
         <sojourner:a_papertitle_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Entity-Relationship Model-Toward a Unified View of Data</sojourner:a_papertitle_dataproperty>
         <sojourner:a_referencepaper_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pdfs.semanticscholar.org/3aa6/b6e378fc17b64f4920e2b5240be9a30477ca.pdf</sojourner:a_referencepaper_dataproperty>
     </owl:NamedIndividual>
@@ -18412,6 +18416,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#de43ecd4a323227c3050c7af8788d528 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#de43ecd4a323227c3050c7af8788d528">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#ApplicationDomain"/>
         <sojourner:ad_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semantic Data Model</sojourner:ad_name_dataproperty>
     </owl:NamedIndividual>
     
@@ -18420,6 +18425,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#e568b246d95cca0dbd7b492fed105c62 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#e568b246d95cca0dbd7b492fed105c62">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
         <sojourner:v_is_last_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_last_dataproperty>
         <sojourner:v_is_mainteined_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_mainteined_dataproperty>
         <sojourner:v_is_standard_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_standard_dataproperty>
@@ -18433,6 +18439,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#eb6d80b8d6ac0e4af512406c36e6cb39 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#eb6d80b8d6ac0e4af512406c36e6cb39">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
         <sojourner:v_is_last_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_last_dataproperty>
         <sojourner:v_is_mainteined_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_mainteined_dataproperty>
         <sojourner:v_is_standard_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_standard_dataproperty>
@@ -18446,6 +18453,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#ef6bf3fd02c2c92bf0e156d4b5b818ac -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#ef6bf3fd02c2c92bf0e156d4b5b818ac">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
         <sojourner:v_is_last_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_last_dataproperty>
         <sojourner:v_is_mainteined_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_mainteined_dataproperty>
         <sojourner:v_is_standard_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_standard_dataproperty>
@@ -18459,6 +18467,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#f320481f1023bc24b5ddd63df99fdfc0 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#f320481f1023bc24b5ddd63df99fdfc0">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
         <sojourner:v_is_last_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_last_dataproperty>
         <sojourner:v_is_mainteined_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_mainteined_dataproperty>
         <sojourner:v_is_standard_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_standard_dataproperty>
@@ -18471,6 +18480,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#1bd3a0484883ca6deaada8395a8f6e85 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#1bd3a0484883ca6deaada8395a8f6e85">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#ConceptualModel"/>
         <sojourner:cm_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ER</sojourner:cm_name_dataproperty>
         <sojourner:cm_type_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ERD</sojourner:cm_type_dataproperty>
     </owl:NamedIndividual>
@@ -18480,6 +18490,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#19820171d79755d0e58a16557ae00aef -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#19820171d79755d0e58a16557ae00aef">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Author"/>
         <sojourner:a_papertitle_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Structure Diagrams</sojourner:a_papertitle_dataproperty>
         <sojourner:a_referencepaper_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.minet.uni-jena.de/dbis/lehre/ws2005/dbs1/Bachman-DataStructureDiagrams.pdf</sojourner:a_referencepaper_dataproperty>
     </owl:NamedIndividual>
@@ -18489,6 +18500,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#30d38cb04e3bb774c8afe757c775ea8a -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#30d38cb04e3bb774c8afe757c775ea8a">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
         <sojourner:v_is_last_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_last_dataproperty>
         <sojourner:v_is_mainteined_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_mainteined_dataproperty>
         <sojourner:v_is_standard_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_standard_dataproperty>
@@ -18501,6 +18513,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#32f7023e6fb00da8ddc9ecbf366e592b -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#32f7023e6fb00da8ddc9ecbf366e592b">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#ApplicationDomain"/>
         <sojourner:ad_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computer Software Design</sojourner:ad_name_dataproperty>
     </owl:NamedIndividual>
     
@@ -18509,6 +18522,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#40a221d6ee5706cee18adb4d1cdb304d -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#40a221d6ee5706cee18adb4d1cdb304d">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> its value cannot be null (identified by *)</sojourner:c_description_dataproperty>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bar “|” across one end of a relationship line indicates that the relationship is a component of the primary identifier for the entity type at that end.</sojourner:c_description_dataproperty>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Attributes are written inside the entities</sojourner:c_description_dataproperty>
@@ -18558,6 +18572,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#449a6bb013f148e8b77b374e273e852d -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#449a6bb013f148e8b77b374e273e852d">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#ApplicationDomain"/>
         <sojourner:ad_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Database Systems</sojourner:ad_name_dataproperty>
     </owl:NamedIndividual>
     
@@ -18566,6 +18581,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#730c69d1f7a55ab0c0decfeb43b6f673 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#730c69d1f7a55ab0c0decfeb43b6f673">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
         <sojourner:v_is_last_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_last_dataproperty>
         <sojourner:v_is_mainteined_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_mainteined_dataproperty>
         <sojourner:v_is_standard_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_standard_dataproperty>
@@ -18579,6 +18595,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#761f3d44387abb038e6c224263ada625 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#761f3d44387abb038e6c224263ada625">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#ApplicationDomain"/>
         <sojourner:ad_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SSADM and Information Engineering</sojourner:ad_name_dataproperty>
     </owl:NamedIndividual>
     
@@ -18587,6 +18604,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#8f663e1c6a2760cbed43e36824577119 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#8f663e1c6a2760cbed43e36824577119">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A single instance of an entity can be associated with instances in the related entity.</sojourner:c_description_dataproperty>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An attribute is a property that describes a particular entity.</sojourner:c_description_dataproperty>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An entity is a representation of a class of object. It can be a person, place, thing, etc. Entities usually have attributes that describe them.</sojourner:c_description_dataproperty>
@@ -18615,6 +18633,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#81d6f316d169150d0e8733866c38684d -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#81d6f316d169150d0e8733866c38684d">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
         <sojourner:v_is_last_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_last_dataproperty>
         <sojourner:v_is_mainteined_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_mainteined_dataproperty>
         <sojourner:v_is_standard_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_standard_dataproperty>
@@ -18627,6 +18646,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#85217bd7cdfb7e94156aa6db4e20ad96 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#85217bd7cdfb7e94156aa6db4e20ad96">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A number of instances in range of n to m of the dependent entity are related to an instance of the independent entity</sojourner:c_description_dataproperty>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property or characteristic that is common to some or all of the instances of an entity. An attribute represents the use of a domain in the context of an entity.</sojourner:c_description_dataproperty>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exactly n instances of the dependent entity are related to an instance of the independent entity</sojourner:c_description_dataproperty>
@@ -18660,6 +18680,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#8773b16a2313c21b7e9d2bb9ecac4b77 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#8773b16a2313c21b7e9d2bb9ecac4b77">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
         <sojourner:v_is_last_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_last_dataproperty>
         <sojourner:v_is_mainteined_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_mainteined_dataproperty>
         <sojourner:v_is_standard_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_standard_dataproperty>
@@ -18672,6 +18693,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#97472994a8e5707451952eb7fc84d084 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#97472994a8e5707451952eb7fc84d084">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#ApplicationDomain"/>
         <sojourner:ad_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entity–relationship model</sojourner:ad_name_dataproperty>
     </owl:NamedIndividual>
     
