@@ -10265,8 +10265,8 @@ Standards bodies should promote a standard prefix for the identifiers of propert
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#has_addDomain">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#relational_property"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/orione/sojourner#is_appDomain"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/orione/sojourner#ApplicationDomain"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sojourner#ApplicationDomain"/>
     </owl:ObjectProperty>
     
 
@@ -10276,8 +10276,8 @@ Standards bodies should promote a standard prefix for the identifiers of propert
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#has_author">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#relational_property"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/orione/sojourner#is_author"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/orione/sojourner#Author"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sojourner#Author"/>
     </owl:ObjectProperty>
     
 
@@ -10287,7 +10287,7 @@ Standards bodies should promote a standard prefix for the identifiers of propert
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#has_representation">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#relational_property"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/orione/sojourner#is_representation"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Construct"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
         <rdfs:range rdf:resource="http://schema.org/ImageObject"/>
     </owl:ObjectProperty>
     
@@ -10298,8 +10298,8 @@ Standards bodies should promote a standard prefix for the identifiers of propert
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#has_version">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#relational_property"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/orione/sojourner#is_version"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModel"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#ConceptualModel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
     </owl:ObjectProperty>
     
 
@@ -10308,8 +10308,8 @@ Standards bodies should promote a standard prefix for the identifiers of propert
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#is_appDomain">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#relational_property"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#ApplicationDomain"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#ApplicationDomain"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
     </owl:ObjectProperty>
     
 
@@ -10318,8 +10318,8 @@ Standards bodies should promote a standard prefix for the identifiers of propert
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#is_author">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#relational_property"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Author"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#Author"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
     </owl:ObjectProperty>
     
 
@@ -10329,8 +10329,8 @@ Standards bodies should promote a standard prefix for the identifiers of propert
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#is_produced">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#relational_property"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/orione/sojourner#produce_a"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModelDiagram"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/orione/sojourner#Construct"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#ConceptualModelDiagram"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
     </owl:ObjectProperty>
     
 
@@ -10340,7 +10340,7 @@ Standards bodies should promote a standard prefix for the identifiers of propert
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#is_representation">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#relational_property"/>
         <rdfs:domain rdf:resource="http://schema.org/ImageObject"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/orione/sojourner#Construct"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
     </owl:ObjectProperty>
     
 
@@ -10349,8 +10349,8 @@ Standards bodies should promote a standard prefix for the identifiers of propert
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#is_version">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#relational_property"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sojourner#ConceptualModel"/>
     </owl:ObjectProperty>
     
 
@@ -10359,8 +10359,8 @@ Standards bodies should promote a standard prefix for the identifiers of propert
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#produce_a">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#relational_property"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Construct"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModelDiagram"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sojourner#ConceptualModelDiagram"/>
     </owl:ObjectProperty>
     
 
@@ -10368,6 +10368,14 @@ Standards bodies should promote a standard prefix for the identifiers of propert
     <!-- http://www.semanticweb.org/orione/sojourner#relational_property -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/orione/sojourner#relational_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sojourner#relation_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sojourner#relation_property">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
     </owl:ObjectProperty>
     
@@ -10388,7 +10396,7 @@ Standards bodies should promote a standard prefix for the identifiers of propert
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/orione/sojourner#a_papertitle_dataproperty">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#author_dataproperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Author"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#Author"/>
     </owl:DatatypeProperty>
     
 
@@ -10397,7 +10405,7 @@ Standards bodies should promote a standard prefix for the identifiers of propert
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/orione/sojourner#a_referencepaper_dataproperty">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#author_dataproperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Author"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#Author"/>
     </owl:DatatypeProperty>
     
 
@@ -10406,7 +10414,7 @@ Standards bodies should promote a standard prefix for the identifiers of propert
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/orione/sojourner#ad_name_dataproperty">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#applicationdomain_dataproperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#ApplicationDomain"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#ApplicationDomain"/>
     </owl:DatatypeProperty>
     
 
@@ -10431,7 +10439,7 @@ Standards bodies should promote a standard prefix for the identifiers of propert
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/orione/sojourner#c_description_dataproperty">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#construct_dataproperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Construct"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
     </owl:DatatypeProperty>
     
 
@@ -10440,7 +10448,7 @@ Standards bodies should promote a standard prefix for the identifiers of propert
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/orione/sojourner#c_design_dataproperty">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#construct_dataproperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Construct"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
     </owl:DatatypeProperty>
     
 
@@ -10449,7 +10457,7 @@ Standards bodies should promote a standard prefix for the identifiers of propert
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/orione/sojourner#c_name_dataproperty">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#construct_dataproperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Construct"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
     </owl:DatatypeProperty>
     
 
@@ -10458,7 +10466,7 @@ Standards bodies should promote a standard prefix for the identifiers of propert
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/orione/sojourner#cm_name_dataproperty">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sojourner#conceptualmodel_dataproperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#ConceptualModel"/>
     </owl:DatatypeProperty>
     
 
@@ -10467,7 +10475,7 @@ Standards bodies should promote a standard prefix for the identifiers of propert
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/orione/sojourner#cm_type_dataproperty">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sojourner#conceptualmodel_dataproperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#ConceptualModel"/>
     </owl:DatatypeProperty>
     
 
@@ -10484,7 +10492,7 @@ Standards bodies should promote a standard prefix for the identifiers of propert
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/orione/sojourner#d_example_dataproperty">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#documentproduced_dataproperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModelDiagram"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#ConceptualModelDiagram"/>
     </owl:DatatypeProperty>
     
 
@@ -10493,7 +10501,7 @@ Standards bodies should promote a standard prefix for the identifiers of propert
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/orione/sojourner#d_is_human_readable_dataproperty">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#documentproduced_dataproperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModelDiagram"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#ConceptualModelDiagram"/>
     </owl:DatatypeProperty>
     
 
@@ -10510,7 +10518,7 @@ Standards bodies should promote a standard prefix for the identifiers of propert
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/orione/sojourner#v_is_last_dataproperty">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#version_dataproperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
     </owl:DatatypeProperty>
     
 
@@ -10519,7 +10527,7 @@ Standards bodies should promote a standard prefix for the identifiers of propert
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/orione/sojourner#v_is_mainteined_dataproperty">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#version_dataproperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
     </owl:DatatypeProperty>
     
 
@@ -10528,7 +10536,7 @@ Standards bodies should promote a standard prefix for the identifiers of propert
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/orione/sojourner#v_is_standard_dataproperty">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#version_dataproperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
     </owl:DatatypeProperty>
     
 
@@ -10537,7 +10545,7 @@ Standards bodies should promote a standard prefix for the identifiers of propert
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/orione/sojourner#v_name_dataproperty">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#version_dataproperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
     </owl:DatatypeProperty>
     
 
@@ -10546,7 +10554,7 @@ Standards bodies should promote a standard prefix for the identifiers of propert
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/orione/sojourner#v_release_date_dataproperty">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#version_dataproperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
     </owl:DatatypeProperty>
     
 
@@ -10555,7 +10563,7 @@ Standards bodies should promote a standard prefix for the identifiers of propert
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/orione/sojourner#v_version_no_dataproperty">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#version_dataproperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
     </owl:DatatypeProperty>
     
 
@@ -17054,22 +17062,21 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     
 
 
-    <!-- http://www.semanticweb.org/orione/sojourner#ApplicationDomain -->
+    <!-- http://www.semanticweb.org/sojourner#ApplicationDomain -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/orione/sojourner#ApplicationDomain">
-        <rdfs:subClassOf rdf:resource="http://schema.org/Intangible"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/sojourner#ApplicationDomain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
         <rdfs:comment xml:lang="en">a specified sphere of activity or knowledge</rdfs:comment>
-        <rdfs:isDefinedBy>wordnet -&gt; 6008444</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy>Wordnet -&gt; 6008444</rdfs:isDefinedBy>
         <rdfs:label>ApplicationDomain</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/orione/sojourner#Author -->
+    <!-- http://www.semanticweb.org/sojourner#Author -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/orione/sojourner#Author">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/sojourner#Author">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
         <owl:disjointUnionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="http://schema.org/Organization"/>
             <rdf:Description rdf:about="http://schema.org/Person"/>
@@ -17081,31 +17088,9 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     
 
 
-    <!-- http://www.semanticweb.org/orione/sojourner#Construct -->
+    <!-- http://www.semanticweb.org/sojourner#ConceptualModel -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/orione/sojourner#Construct">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
-        <rdfs:comment xml:lang="en">A construct for build something more complex</rdfs:comment>
-        <rdfs:isDefinedBy>wordnet -&gt; 5844071</rdfs:isDefinedBy>
-        <rdfs:label>Construct</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/orione/sojourner#Version -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/orione/sojourner#Version">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModel"/>
-        <rdfs:comment>a particular release of a piece of computer software or a different representation of a conceptual model</rdfs:comment>
-        <rdfs:isDefinedBy>Wordnet -&gt; 5849159</rdfs:isDefinedBy>
-        <rdfs:label>Version</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModel -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModel">
+    <owl:Class rdf:about="http://www.semanticweb.org/sojourner#ConceptualModel">
         <rdfs:subClassOf rdf:resource="http://schema.org/Intangible"/>
         <rdfs:comment>A conceptual model is a representation of a system, made of the composition of concepts which are used to help people know, understand, or simulate a subject the model represents.</rdfs:comment>
         <rdfs:isDefinedBy>Wordnet -&gt; 3782816</rdfs:isDefinedBy>
@@ -17114,13 +17099,35 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     
 
 
-    <!-- http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModelDiagram -->
+    <!-- http://www.semanticweb.org/sojourner#ConceptualModelDiagram -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModelDiagram">
+    <owl:Class rdf:about="http://www.semanticweb.org/sojourner#ConceptualModelDiagram">
         <rdfs:subClassOf rdf:resource="http://schema.org/CreativeWork"/>
         <rdfs:comment>A diagram produced by a conceptual model</rdfs:comment>
         <rdfs:isDefinedBy>Wordnet -&gt; 6481744</rdfs:isDefinedBy>
         <rdfs:label>ConceptualModelDiagram</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sojourner#Construct -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sojourner#Construct">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
+        <rdfs:comment xml:lang="en">an idea or theory containing various conceptual elements, typically one considered to be subjective and not based on empirical evidence</rdfs:comment>
+        <rdfs:isDefinedBy>Wordnet -&gt; 5844071</rdfs:isDefinedBy>
+        <rdfs:label>Construct</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sojourner#Version -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sojourner#Version">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sojourner#ConceptualModel"/>
+        <rdfs:comment>a particular release of a piece of computer software or a different representation of a conceptual model</rdfs:comment>
+        <rdfs:isDefinedBy>Wordnet -&gt; 5849159</rdfs:isDefinedBy>
+        <rdfs:label>Version</rdfs:label>
     </owl:Class>
     
 
@@ -18323,7 +18330,6 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#b103e18fc6570018b316592c779eab18 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#b103e18fc6570018b316592c779eab18">
-        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
         <sojourner:v_is_last_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_last_dataproperty>
         <sojourner:v_is_mainteined_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_mainteined_dataproperty>
         <sojourner:v_is_standard_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_standard_dataproperty>
@@ -18337,8 +18343,6 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722">
-        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Construct"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModelDiagram"/>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> an attribute that can have many values (there are many distinct values entered for it in the same column of the table). Multivalued attribute is depicted by a dual oval</sojourner:c_description_dataproperty>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> an attribute whose value is calculated (derived) from other attributes. The derived attribute may or may not be physically stored in the database</sojourner:c_description_dataproperty>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mandatory relationship is a relationship that have to exist</sojourner:c_description_dataproperty>
@@ -18399,7 +18403,6 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#bb6eddd4ada5bb27aeba62e0d3c93198 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#bb6eddd4ada5bb27aeba62e0d3c93198">
-        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Author"/>
         <sojourner:a_papertitle_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Entity-Relationship Model-Toward a Unified View of Data</sojourner:a_papertitle_dataproperty>
         <sojourner:a_referencepaper_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pdfs.semanticscholar.org/3aa6/b6e378fc17b64f4920e2b5240be9a30477ca.pdf</sojourner:a_referencepaper_dataproperty>
     </owl:NamedIndividual>
@@ -18409,7 +18412,6 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#de43ecd4a323227c3050c7af8788d528 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#de43ecd4a323227c3050c7af8788d528">
-        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#ApplicationDomain"/>
         <sojourner:ad_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semantic Data Model</sojourner:ad_name_dataproperty>
     </owl:NamedIndividual>
     
@@ -18418,7 +18420,6 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#e568b246d95cca0dbd7b492fed105c62 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#e568b246d95cca0dbd7b492fed105c62">
-        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
         <sojourner:v_is_last_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_last_dataproperty>
         <sojourner:v_is_mainteined_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_mainteined_dataproperty>
         <sojourner:v_is_standard_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_standard_dataproperty>
@@ -18432,7 +18433,6 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#eb6d80b8d6ac0e4af512406c36e6cb39 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#eb6d80b8d6ac0e4af512406c36e6cb39">
-        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
         <sojourner:v_is_last_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_last_dataproperty>
         <sojourner:v_is_mainteined_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_mainteined_dataproperty>
         <sojourner:v_is_standard_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_standard_dataproperty>
@@ -18446,7 +18446,6 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#ef6bf3fd02c2c92bf0e156d4b5b818ac -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#ef6bf3fd02c2c92bf0e156d4b5b818ac">
-        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
         <sojourner:v_is_last_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_last_dataproperty>
         <sojourner:v_is_mainteined_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_mainteined_dataproperty>
         <sojourner:v_is_standard_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_standard_dataproperty>
@@ -18460,7 +18459,6 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#f320481f1023bc24b5ddd63df99fdfc0 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#f320481f1023bc24b5ddd63df99fdfc0">
-        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
         <sojourner:v_is_last_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_last_dataproperty>
         <sojourner:v_is_mainteined_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_mainteined_dataproperty>
         <sojourner:v_is_standard_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_standard_dataproperty>
@@ -18473,7 +18471,6 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#1bd3a0484883ca6deaada8395a8f6e85 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#1bd3a0484883ca6deaada8395a8f6e85">
-        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojournermax/ontologies/2017/11/untitled-ontology-14#ConceptualModel"/>
         <sojourner:cm_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ER</sojourner:cm_name_dataproperty>
         <sojourner:cm_type_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ERD</sojourner:cm_type_dataproperty>
     </owl:NamedIndividual>
@@ -18483,7 +18480,6 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#19820171d79755d0e58a16557ae00aef -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#19820171d79755d0e58a16557ae00aef">
-        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Author"/>
         <sojourner:a_papertitle_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Structure Diagrams</sojourner:a_papertitle_dataproperty>
         <sojourner:a_referencepaper_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.minet.uni-jena.de/dbis/lehre/ws2005/dbs1/Bachman-DataStructureDiagrams.pdf</sojourner:a_referencepaper_dataproperty>
     </owl:NamedIndividual>
@@ -18493,7 +18489,6 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#30d38cb04e3bb774c8afe757c775ea8a -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#30d38cb04e3bb774c8afe757c775ea8a">
-        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
         <sojourner:v_is_last_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_last_dataproperty>
         <sojourner:v_is_mainteined_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_mainteined_dataproperty>
         <sojourner:v_is_standard_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_standard_dataproperty>
@@ -18506,7 +18501,6 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#32f7023e6fb00da8ddc9ecbf366e592b -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#32f7023e6fb00da8ddc9ecbf366e592b">
-        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#ApplicationDomain"/>
         <sojourner:ad_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computer Software Design</sojourner:ad_name_dataproperty>
     </owl:NamedIndividual>
     
@@ -18515,7 +18509,6 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#40a221d6ee5706cee18adb4d1cdb304d -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#40a221d6ee5706cee18adb4d1cdb304d">
-        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Construct"/>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> its value cannot be null (identified by *)</sojourner:c_description_dataproperty>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bar “|” across one end of a relationship line indicates that the relationship is a component of the primary identifier for the entity type at that end.</sojourner:c_description_dataproperty>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Attributes are written inside the entities</sojourner:c_description_dataproperty>
@@ -18565,7 +18558,6 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#449a6bb013f148e8b77b374e273e852d -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#449a6bb013f148e8b77b374e273e852d">
-        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#ApplicationDomain"/>
         <sojourner:ad_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Database Systems</sojourner:ad_name_dataproperty>
     </owl:NamedIndividual>
     
@@ -18574,7 +18566,6 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#730c69d1f7a55ab0c0decfeb43b6f673 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#730c69d1f7a55ab0c0decfeb43b6f673">
-        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
         <sojourner:v_is_last_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_last_dataproperty>
         <sojourner:v_is_mainteined_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_mainteined_dataproperty>
         <sojourner:v_is_standard_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_standard_dataproperty>
@@ -18588,7 +18579,6 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#761f3d44387abb038e6c224263ada625 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#761f3d44387abb038e6c224263ada625">
-        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#ApplicationDomain"/>
         <sojourner:ad_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SSADM and Information Engineering</sojourner:ad_name_dataproperty>
     </owl:NamedIndividual>
     
@@ -18597,7 +18587,6 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#8f663e1c6a2760cbed43e36824577119 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#8f663e1c6a2760cbed43e36824577119">
-        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Construct"/>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A single instance of an entity can be associated with instances in the related entity.</sojourner:c_description_dataproperty>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An attribute is a property that describes a particular entity.</sojourner:c_description_dataproperty>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An entity is a representation of a class of object. It can be a person, place, thing, etc. Entities usually have attributes that describe them.</sojourner:c_description_dataproperty>
@@ -18626,7 +18615,6 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#81d6f316d169150d0e8733866c38684d -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#81d6f316d169150d0e8733866c38684d">
-        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
         <sojourner:v_is_last_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_last_dataproperty>
         <sojourner:v_is_mainteined_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_mainteined_dataproperty>
         <sojourner:v_is_standard_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_standard_dataproperty>
@@ -18639,7 +18627,6 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#85217bd7cdfb7e94156aa6db4e20ad96 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#85217bd7cdfb7e94156aa6db4e20ad96">
-        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Construct"/>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A number of instances in range of n to m of the dependent entity are related to an instance of the independent entity</sojourner:c_description_dataproperty>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property or characteristic that is common to some or all of the instances of an entity. An attribute represents the use of a domain in the context of an entity.</sojourner:c_description_dataproperty>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exactly n instances of the dependent entity are related to an instance of the independent entity</sojourner:c_description_dataproperty>
@@ -18673,7 +18660,6 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#8773b16a2313c21b7e9d2bb9ecac4b77 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#8773b16a2313c21b7e9d2bb9ecac4b77">
-        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#Version"/>
         <sojourner:v_is_last_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_last_dataproperty>
         <sojourner:v_is_mainteined_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_mainteined_dataproperty>
         <sojourner:v_is_standard_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sojourner:v_is_standard_dataproperty>
@@ -18686,7 +18672,6 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <!-- http://www.semanticweb.org/sojourner#97472994a8e5707451952eb7fc84d084 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#97472994a8e5707451952eb7fc84d084">
-        <rdf:type rdf:resource="http://www.semanticweb.org/orione/sojourner#ApplicationDomain"/>
         <sojourner:ad_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entity–relationship model</sojourner:ad_name_dataproperty>
     </owl:NamedIndividual>
     
@@ -18965,9 +18950,9 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/orione/sojourner#ApplicationDomain"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/orione/sojourner#Author"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/orione/sojourner#Construct"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sojourner#ApplicationDomain"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sojourner#Author"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sojourner#Construct"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
