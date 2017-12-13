@@ -1550,3 +1550,1011 @@ Individual: Data Structure Diagrams  # Generated from value "Data Structure Diag
    Types: Author
 
 ===========================================================================================================
+Date: 2017-12-13 10:34:34
+Ontology source: /Users/Max/Desktop/Sojourner/sojourner.owl
+Worksheet source: /Users/Max/Desktop/ConceptualModel_final.xls
+Transformation rules: /Users/Max/Desktop/Sojourner/minirule.json
+
+# Cell range: (Construct!A2:A+) Comment: ""
+# Individual: @A*(mm:hashEncode)
+# Types: Construct
+# Facts: 	c_description_dataproperty @D*(xsd:string),
+# 	c_name_dataproperty @C*(xsd:string),
+# 	c_design_dataproperty @E*(xsd:string)
+
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A2.
+   Facts: c_name_dataproperty "entity"  # Generated from value "entity" located at cell 'Construct'!C2.,
+         c_design_dataproperty "An entity is represented by a rectangle which contains the entity’s name."  # Generated from value "An entity is represented by a rectangle which contains the entity’s name." located at cell 'Construct'!E2.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A3.
+   Facts: c_description_dataproperty "an entity that cannot be uniquely identified by its attributes alone. The existence of a weak entity is dependent upon another entity called the owner entity. The weak entity’s identifier is a combination of the identifier of the owner entity and the partial key of the weak entity."  # Generated from value "an entity that cannot be uniquely identified by its attributes alone. The existence of a weak entity is dependent upon another entity called the owner entity. The weak entity’s identifier is a combination of the identifier of the owner entity and the partial key of the weak entity." located at cell 'Construct'!D3.,
+         c_name_dataproperty "weak entity"  # Generated from value "weak entity" located at cell 'Construct'!C3.,
+         c_design_dataproperty "A weak entity is represented by a dual rectangle which contains the entity’s name."  # Generated from value "A weak entity is represented by a dual rectangle which contains the entity’s name." located at cell 'Construct'!E3.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A4.
+   Facts: c_description_dataproperty "an entity used in a many-to-many relationship (represents an extra table). All relationships for the associative entity should be many"  # Generated from value "an entity used in a many-to-many relationship (represents an extra table). All relationships for the associative entity should be many" located at cell 'Construct'!D4.,
+         c_name_dataproperty "associative entity"  # Generated from value "associative entity" located at cell 'Construct'!C4.,
+         c_design_dataproperty "An associative entity is represented by a diamond  which contains the entity’s name inside a rectangle."  # Generated from value "An associative entity is represented by a diamond  which contains the entity’s name inside a rectangle." located at cell 'Construct'!E4.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A5.
+   Facts: c_description_dataproperty "An attribute can be formally defined as a function which maps from an entity set or a relationship set into a value set or a Cartesian product of value sets: f: Ei or Ri + Vi or Vi, X Vi, X *-a X Vi,."  # Generated from value "An attribute can be formally defined as a function which maps from an entity set or a relationship set into a value set or a Cartesian product of value sets: f: Ei or Ri + Vi or Vi, X Vi, X *-a X Vi,." located at cell 'Construct'!D5.,
+         c_name_dataproperty "attribute"  # Generated from value "attribute" located at cell 'Construct'!C5.,
+         c_design_dataproperty "An attribute is represented by an oval containing attribute’s name"  # Generated from value "An attribute is represented by an oval containing attribute’s name" located at cell 'Construct'!E5.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A6.
+   Facts: c_description_dataproperty "an attribute that uniquely identifies a particular entity. The name of a key attribute is underscored"  # Generated from value "an attribute that uniquely identifies a particular entity. The name of a key attribute is underscored" located at cell 'Construct'!D6.,
+         c_name_dataproperty "key attribute"  # Generated from value "key attribute" located at cell 'Construct'!C6.,
+         c_design_dataproperty "A key attribute is represented by an oval containing attribute's name that is underscored"  # Generated from value "A key attribute is represented by an oval containing attribute's name that is underscored" located at cell 'Construct'!E6.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A7.
+   Facts: c_description_dataproperty "an attribute that, when combined with the key attribute of the owner entity, provides a unique identification for the weak entity. We underline the discriminator with a dashed line"  # Generated from value "an attribute that, when combined with the key attribute of the owner entity, provides a unique identification for the weak entity. We underline the discriminator with a dashed line" located at cell 'Construct'!D7.,
+         c_name_dataproperty "partial key attribute"  # Generated from value "partial key attribute" located at cell 'Construct'!C7.,
+         c_design_dataproperty "A key attribute is represented by an oval containing attribute's name that is underscored with a dashed line"  # Generated from value "A key attribute is represented by an oval containing attribute's name that is underscored with a dashed line" located at cell 'Construct'!E7.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A8.
+   Facts: c_description_dataproperty " an attribute that can have many values (there are many distinct values entered for it in the same column of the table). Multivalued attribute is depicted by a dual oval"  # Generated from value " an attribute that can have many values (there are many distinct values entered for it in the same column of the table). Multivalued attribute is depicted by a dual oval" located at cell 'Construct'!D8.,
+         c_name_dataproperty "multivalued attribute"  # Generated from value "multivalued attribute" located at cell 'Construct'!C8.,
+         c_design_dataproperty "Multivalued attribute is depicted by a dual ova"  # Generated from value "Multivalued attribute is depicted by a dual ova" located at cell 'Construct'!E8.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A9.
+   Facts: c_description_dataproperty " an attribute whose value is calculated (derived) from other attributes. The derived attribute may or may not be physically stored in the database"  # Generated from value " an attribute whose value is calculated (derived) from other attributes. The derived attribute may or may not be physically stored in the database" located at cell 'Construct'!D9.,
+         c_name_dataproperty "derived attribute"  # Generated from value "derived attribute" located at cell 'Construct'!C9.,
+         c_design_dataproperty "A derived attribute is represented by dashed oval"  # Generated from value "A derived attribute is represented by dashed oval" located at cell 'Construct'!E9.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A10.
+   Facts: c_description_dataproperty "a relationship where Child entity is existence-dependent on parent, and PK of Child Entity contains PK component of Parent Entity"  # Generated from value "a relationship where Child entity is existence-dependent on parent, and PK of Child Entity contains PK component of Parent Entity" located at cell 'Construct'!D10.,
+         c_name_dataproperty "composite attribute"  # Generated from value "composite attribute" located at cell 'Construct'!C10.,
+         c_design_dataproperty "A composite attribute is an attribute composed by different attributes that could be of different type"  # Generated from value "A composite attribute is an attribute composed by different attributes that could be of different type" located at cell 'Construct'!E10.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A11.
+   Facts: c_description_dataproperty "A relationship set, Ri, is a mathematical relation among n entities, each taken from an entity set: (Gel, e2, . . . , e,] 1 el E El, e2 E E2, . . . , e, E En},and each tuple of entities, [el, et, , . . , e,], is a relationship. "  # Generated from value "A relationship set, Ri, is a mathematical relation among n entities, each taken from an entity set: (Gel, e2, . . . , e,] 1 el E El, e2 E E2, . . . , e, E En},and each tuple of entities, [el, et, , . . , e,], is a relationship. " located at cell 'Construct'!D11.,
+         c_name_dataproperty "strong relationship"  # Generated from value "strong relationship" located at cell 'Construct'!C11.,
+         c_design_dataproperty "A strong relationship is represented by a single rhombus"  # Generated from value "A strong relationship is represented by a single rhombus" located at cell 'Construct'!E11.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A12.
+   Facts: c_description_dataproperty "a relationship where Child entity is existence-dependent on parent, and PK of Child Entity contains PK component of Parent Entity"  # Generated from value "a relationship where Child entity is existence-dependent on parent, and PK of Child Entity contains PK component of Parent Entity" located at cell 'Construct'!D12.,
+         c_name_dataproperty "weak relationship"  # Generated from value "weak relationship" located at cell 'Construct'!C12.,
+         c_design_dataproperty "A weak relationship is represented by a double rhombus"  # Generated from value "A weak relationship is represented by a double rhombus" located at cell 'Construct'!E12.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A13.
+   Facts: c_description_dataproperty "A mandatory relationship is a relationship that have to exist"  # Generated from value "A mandatory relationship is a relationship that have to exist" located at cell 'Construct'!D13.,
+         c_name_dataproperty "mandatory relationship"  # Generated from value "mandatory relationship" located at cell 'Construct'!C13.,
+         c_design_dataproperty "A mandatory relationship is represented by a solid line"  # Generated from value "A mandatory relationship is represented by a solid line" located at cell 'Construct'!E13.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A14.
+   Facts: c_description_dataproperty "An optional relationship is a relationship that could exist"  # Generated from value "An optional relationship is a relationship that could exist" located at cell 'Construct'!D14.,
+         c_name_dataproperty "optional relationship"  # Generated from value "optional relationship" located at cell 'Construct'!C14.,
+         c_design_dataproperty "An optional relationship is represented by a dashed line"  # Generated from value "An optional relationship is represented by a dashed line" located at cell 'Construct'!E14.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A15.
+   Facts: c_description_dataproperty "Only a single entity in the set is involved in the relationship with a single entity of the other set"  # Generated from value "Only a single entity in the set is involved in the relationship with a single entity of the other set" located at cell 'Construct'!D15.,
+         c_name_dataproperty "cardinality 1-to-1"  # Generated from value "cardinality 1-to-1" located at cell 'Construct'!C15.,
+         c_design_dataproperty "Represented putting number 1 to both ends of the relationship line"  # Generated from value "Represented putting number 1 to both ends of the relationship line" located at cell 'Construct'!E15.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A16.
+   Facts: c_description_dataproperty "Only a single entity in the set is involved in the relationship with multiple entities of the other set"  # Generated from value "Only a single entity in the set is involved in the relationship with multiple entities of the other set" located at cell 'Construct'!D16.,
+         c_name_dataproperty "cardinality 1-to-many"  # Generated from value "cardinality 1-to-many" located at cell 'Construct'!C16.,
+         c_design_dataproperty "Represented putting number 1 to the end line near the entity with a single element, and put letter N on the other side, near the multiple entity"  # Generated from value "Represented putting number 1 to the end line near the entity with a single element, and put letter N on the other side, near the multiple entity" located at cell 'Construct'!E16.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A17.
+   Facts: c_description_dataproperty "Multiple entities in the set are involved in the relationship with multiple entities of the other set"  # Generated from value "Multiple entities in the set are involved in the relationship with multiple entities of the other set" located at cell 'Construct'!D17.,
+         c_name_dataproperty "cardinality many-to-many"  # Generated from value "cardinality many-to-many" located at cell 'Construct'!C17.,
+         c_design_dataproperty "Represented putting letter N to both ends of the relationship line"  # Generated from value "Represented putting letter N to both ends of the relationship line" located at cell 'Construct'!E17.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A18.
+   Facts: c_description_dataproperty "Total participation means that every entity in the set is involved in the relationship"  # Generated from value "Total participation means that every entity in the set is involved in the relationship" located at cell 'Construct'!D18.,
+         c_name_dataproperty "relationship total participation"  # Generated from value "relationship total participation" located at cell 'Construct'!C18.,
+         c_design_dataproperty "Represented by a dual continuous line"  # Generated from value "Represented by a dual continuous line" located at cell 'Construct'!E18.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A19.
+   Facts: c_description_dataproperty "Partial participation means that not all entities in the set are involved in the relationship"  # Generated from value "Partial participation means that not all entities in the set are involved in the relationship" located at cell 'Construct'!D19.,
+         c_name_dataproperty "relationship partial participation"  # Generated from value "relationship partial participation" located at cell 'Construct'!C19.,
+         c_design_dataproperty "Represented by a single continuous line"  # Generated from value "Represented by a single continuous line" located at cell 'Construct'!E19.
+   Types: Construct
+Individual: ER-CROWFOOT  # Generated from value "ER-CROWFOOT" located at cell 'Construct'!A20.
+   Facts: c_description_dataproperty "An entity is a representation of a class of object. It can be a person, place, thing, etc. Entities usually have attributes that describe them."  # Generated from value "An entity is a representation of a class of object. It can be a person, place, thing, etc. Entities usually have attributes that describe them." located at cell 'Construct'!D20.,
+         c_name_dataproperty "entity"  # Generated from value "entity" located at cell 'Construct'!C20.,
+         c_design_dataproperty "An entity is represented by a rectangle divided in two horizontal part, with its name on the top. The name is singular (entity) rather than plural (entities)."  # Generated from value "An entity is represented by a rectangle divided in two horizontal part, with its name on the top. The name is singular (entity) rather than plural (entities)." located at cell 'Construct'!E20.
+   Types: Construct
+Individual: ER-CROWFOOT  # Generated from value "ER-CROWFOOT" located at cell 'Construct'!A21.
+   Facts: c_description_dataproperty "An attribute is a property that describes a particular entity."  # Generated from value "An attribute is a property that describes a particular entity." located at cell 'Construct'!D21.,
+         c_name_dataproperty "attribute"  # Generated from value "attribute" located at cell 'Construct'!C21.,
+         c_design_dataproperty "Attribtutes are written in the bottom part of the entity rectangle. The attribute(s) that uniquely distinguishes an instance of the entity is marked with an asterisk"  # Generated from value "Attribtutes are written in the bottom part of the entity rectangle. The attribute(s) that uniquely distinguishes an instance of the entity is marked with an asterisk" located at cell 'Construct'!E21.
+   Types: Construct
+Individual: ER-CROWFOOT  # Generated from value "ER-CROWFOOT" located at cell 'Construct'!A22.
+   Facts: c_description_dataproperty "Relationships illustrate the association between two entities. Usually, each relationship has a name, expressed as a verb, written on the relationship line. This describes what kind of relationship connects the objects."  # Generated from value "Relationships illustrate the association between two entities. Usually, each relationship has a name, expressed as a verb, written on the relationship line. This describes what kind of relationship connects the objects." located at cell 'Construct'!D22.,
+         c_name_dataproperty "relationship"  # Generated from value "relationship" located at cell 'Construct'!C22.,
+         c_design_dataproperty "Represented by a straight line. The relationship has a name, expressed as a verb. "  # Generated from value "Represented by a straight line. The relationship has a name, expressed as a verb. " located at cell 'Construct'!E22.
+   Types: Construct
+Individual: ER-CROWFOOT  # Generated from value "ER-CROWFOOT" located at cell 'Construct'!A23.
+   Facts: c_description_dataproperty "A single instance of an entity can be associated with instances in the related entity."  # Generated from value "A single instance of an entity can be associated with instances in the related entity." located at cell 'Construct'!D23.,
+         c_name_dataproperty "cardinality multiciplicity of one"  # Generated from value "cardinality multiciplicity of one" located at cell 'Construct'!C23.,
+         c_design_dataproperty "Represented by a vertical line on single entity side"  # Generated from value "Represented by a vertical line on single entity side" located at cell 'Construct'!E23.
+   Types: Construct
+Individual: ER-CROWFOOT  # Generated from value "ER-CROWFOOT" located at cell 'Construct'!A24.
+   Facts: c_description_dataproperty "Multiple instances of an entity can be associated with instances of the related entity."  # Generated from value "Multiple instances of an entity can be associated with instances of the related entity." located at cell 'Construct'!D24.,
+         c_name_dataproperty "cardinality multiciplicity of many"  # Generated from value "cardinality multiciplicity of many" located at cell 'Construct'!C24.,
+         c_design_dataproperty "Represented by the three-pronged ‘crow-foot’ symbol"  # Generated from value "Represented by the three-pronged ‘crow-foot’ symbol" located at cell 'Construct'!E24.
+   Types: Construct
+Individual: ER-CROWFOOT  # Generated from value "ER-CROWFOOT" located at cell 'Construct'!A25.
+   Facts: c_description_dataproperty "The number of times one instance can be related to others is zero"  # Generated from value "The number of times one instance can be related to others is zero" located at cell 'Construct'!D25.,
+         c_name_dataproperty "optional relationship"  # Generated from value "optional relationship" located at cell 'Construct'!C25.,
+         c_design_dataproperty "Represented by a perpendicualar line on the relationship line"  # Generated from value "Represented by a perpendicualar line on the relationship line" located at cell 'Construct'!E25.
+   Types: Construct
+Individual: ER-CROWFOOT  # Generated from value "ER-CROWFOOT" located at cell 'Construct'!A26.
+   Facts: c_description_dataproperty "The number of times one instance can be related to others is one"  # Generated from value "The number of times one instance can be related to others is one" located at cell 'Construct'!D26.,
+         c_name_dataproperty "mandatory relationship"  # Generated from value "mandatory relationship" located at cell 'Construct'!C26.,
+         c_design_dataproperty "Represented by an empty circle on the relationship line"  # Generated from value "Represented by an empty circle on the relationship line" located at cell 'Construct'!E26.
+   Types: Construct
+Individual: ER-IDEF1X  # Generated from value "ER-IDEF1X" located at cell 'Construct'!A27.
+   Facts: c_description_dataproperty "Representation of a class whose unique identifier includes at least one relationship to another entity"  # Generated from value "Representation of a class whose unique identifier includes at least one relationship to another entity" located at cell 'Construct'!D27.,
+         c_name_dataproperty "dependent entity"  # Generated from value "dependent entity" located at cell 'Construct'!C27.,
+         c_design_dataproperty "Represented  by a round-cornered rectangle.  The name of the entity is usually situated above the rectangle"  # Generated from value "Represented  by a round-cornered rectangle.  The name of the entity is usually situated above the rectangle" located at cell 'Construct'!E27.
+   Types: Construct
+Individual: ER-IDEF1X  # Generated from value "ER-IDEF1X" located at cell 'Construct'!A28.
+   Facts: c_description_dataproperty "Representation of a class whose identifiers are not derived from other entities"  # Generated from value "Representation of a class whose identifiers are not derived from other entities" located at cell 'Construct'!D28.,
+         c_name_dataproperty "independent entity"  # Generated from value "independent entity" located at cell 'Construct'!C28.,
+         c_design_dataproperty "Represented by a rectangle. The name of the entity is usually situated above the rectangle"  # Generated from value "Represented by a rectangle. The name of the entity is usually situated above the rectangle" located at cell 'Construct'!E28.
+   Types: Construct
+Individual: ER-IDEF1X  # Generated from value "ER-IDEF1X" located at cell 'Construct'!A29.
+   Facts: c_description_dataproperty "A property or characteristic that is common to some or all of the instances of an entity. An attribute represents the use of a domain in the context of an entity."  # Generated from value "A property or characteristic that is common to some or all of the instances of an entity. An attribute represents the use of a domain in the context of an entity." located at cell 'Construct'!D29.,
+         c_name_dataproperty "attribute"  # Generated from value "attribute" located at cell 'Construct'!C29.,
+         c_design_dataproperty "To present attributes, the entity is divided into two parts. In the first one, there are primary key attributes, while the other contains attributes."  # Generated from value "To present attributes, the entity is divided into two parts. In the first one, there are primary key attributes, while the other contains attributes." located at cell 'Construct'!E29.
+   Types: Construct
+Individual: ER-IDEF1X  # Generated from value "ER-IDEF1X" located at cell 'Construct'!A30.
+   Facts: c_description_dataproperty "Zero, one or more instances of the dependent entity are related to an instance of the independent entity"  # Generated from value "Zero, one or more instances of the dependent entity are related to an instance of the independent entity" located at cell 'Construct'!D30.,
+         c_name_dataproperty "relationship zero one or more"  # Generated from value "relationship zero one or more" located at cell 'Construct'!C30.,
+         c_design_dataproperty "A straight line where on the side of the dependent entity there is a full circle"  # Generated from value "A straight line where on the side of the dependent entity there is a full circle" located at cell 'Construct'!E30.
+   Types: Construct
+Individual: ER-IDEF1X  # Generated from value "ER-IDEF1X" located at cell 'Construct'!A31.
+   Facts: c_description_dataproperty "One or more instances of the dependent entity are related to an instance of the independent entity"  # Generated from value "One or more instances of the dependent entity are related to an instance of the independent entity" located at cell 'Construct'!D31.,
+         c_name_dataproperty "relationship one or more"  # Generated from value "relationship one or more" located at cell 'Construct'!C31.,
+         c_design_dataproperty "A straight line where on the side of the dependent entity there is a full circle and the letter P"  # Generated from value "A straight line where on the side of the dependent entity there is a full circle and the letter P" located at cell 'Construct'!E31.
+   Types: Construct
+Individual: ER-IDEF1X  # Generated from value "ER-IDEF1X" located at cell 'Construct'!A32.
+   Facts: c_description_dataproperty "Zero or more instances of the dependent entity are related to an instance of the independent entity"  # Generated from value "Zero or more instances of the dependent entity are related to an instance of the independent entity" located at cell 'Construct'!D32.,
+         c_name_dataproperty "relationship zero or more"  # Generated from value "relationship zero or more" located at cell 'Construct'!C32.,
+         c_design_dataproperty "A straight line where on the side of the dependent entity there is a full circle and the letter Z"  # Generated from value "A straight line where on the side of the dependent entity there is a full circle and the letter Z" located at cell 'Construct'!E32.
+   Types: Construct
+Individual: ER-IDEF1X  # Generated from value "ER-IDEF1X" located at cell 'Construct'!A33.
+   Facts: c_description_dataproperty "Exactly n instances of the dependent entity are related to an instance of the independent entity"  # Generated from value "Exactly n instances of the dependent entity are related to an instance of the independent entity" located at cell 'Construct'!D33.,
+         c_name_dataproperty "relationship exactly n"  # Generated from value "relationship exactly n" located at cell 'Construct'!C33.,
+         c_design_dataproperty "A straight line where on the side of the dependent entity there is a full circle and the letter n"  # Generated from value "A straight line where on the side of the dependent entity there is a full circle and the letter n" located at cell 'Construct'!E33.
+   Types: Construct
+Individual: ER-IDEF1X  # Generated from value "ER-IDEF1X" located at cell 'Construct'!A34.
+   Facts: c_description_dataproperty "A number of instances in range of n to m of the dependent entity are related to an instance of the independent entity"  # Generated from value "A number of instances in range of n to m of the dependent entity are related to an instance of the independent entity" located at cell 'Construct'!D34.,
+         c_name_dataproperty "relationship exactly from n to m"  # Generated from value "relationship exactly from n to m" located at cell 'Construct'!C34.,
+         c_design_dataproperty "A straight line where on the side of the dependent entity there is a full circle and notation n-m"  # Generated from value "A straight line where on the side of the dependent entity there is a full circle and notation n-m" located at cell 'Construct'!E34.
+   Types: Construct
+Individual: ER-IDEF1X  # Generated from value "ER-IDEF1X" located at cell 'Construct'!A35.
+   Facts: c_name_dataproperty "relationship cardinality specified"  # Generated from value "relationship cardinality specified" located at cell 'Construct'!C35.,
+         c_design_dataproperty "A straight line where on the side of the dependent entity there is a full circle and notation {n}"  # Generated from value "A straight line where on the side of the dependent entity there is a full circle and notation {n}" located at cell 'Construct'!E35.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A36.
+   Facts: c_description_dataproperty "describe the characteristics of a particular entity instance"  # Generated from value "describe the characteristics of a particular entity instance" located at cell 'Construct'!D36.,
+         c_name_dataproperty "entity"  # Generated from value "entity" located at cell 'Construct'!C36.,
+         c_design_dataproperty "Represented by a rounded corner rectangle"  # Generated from value "Represented by a rounded corner rectangle" located at cell 'Construct'!E36.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A37.
+   Facts: c_description_dataproperty "Attributes are written inside the entities"  # Generated from value "Attributes are written inside the entities" located at cell 'Construct'!D37.,
+         c_name_dataproperty "attributes"  # Generated from value "attributes" located at cell 'Construct'!C37.,
+         c_design_dataproperty "Written inside the entity"  # Generated from value "Written inside the entity" located at cell 'Construct'!E37.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A38.
+   Facts: c_description_dataproperty "uniquely identifies an entity instance (identified by #)"  # Generated from value "uniquely identifies an entity instance (identified by #)" located at cell 'Construct'!D38.,
+         c_name_dataproperty "Unique Identifier attribute"  # Generated from value "Unique Identifier attribute" located at cell 'Construct'!C38.,
+         c_design_dataproperty "Written inside the entity and identified by #"  # Generated from value "Written inside the entity and identified by #" located at cell 'Construct'!E38.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A39.
+   Facts: c_description_dataproperty " its value cannot be null (identified by *)"  # Generated from value " its value cannot be null (identified by *)" located at cell 'Construct'!D39.,
+         c_name_dataproperty "Mandatory attribute"  # Generated from value "Mandatory attribute" located at cell 'Construct'!C39.,
+         c_design_dataproperty "Written inside the entity and identified by *"  # Generated from value "Written inside the entity and identified by *" located at cell 'Construct'!E39.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A40.
+   Facts: c_description_dataproperty "its value can be null (identified by O)"  # Generated from value "its value can be null (identified by O)" located at cell 'Construct'!D40.,
+         c_name_dataproperty "Optional attribute"  # Generated from value "Optional attribute" located at cell 'Construct'!C40.,
+         c_design_dataproperty "Written inside the entity and identified by O"  # Generated from value "Written inside the entity and identified by O" located at cell 'Construct'!E40.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A41.
+   Facts: c_description_dataproperty "Each instance of an entity must be related to another instance"  # Generated from value "Each instance of an entity must be related to another instance" located at cell 'Construct'!D41.,
+         c_name_dataproperty "mandatory relationship"  # Generated from value "mandatory relationship" located at cell 'Construct'!C41.,
+         c_design_dataproperty "Represented by a straight line"  # Generated from value "Represented by a straight line" located at cell 'Construct'!E41.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A42.
+   Facts: c_description_dataproperty "Each instance of an entity may be related to another instance"  # Generated from value "Each instance of an entity may be related to another instance" located at cell 'Construct'!D42.,
+         c_name_dataproperty "optional relationship"  # Generated from value "optional relationship" located at cell 'Construct'!C42.,
+         c_design_dataproperty "Represented by a dashed line"  # Generated from value "Represented by a dashed line" located at cell 'Construct'!E42.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A43.
+   Facts: c_description_dataproperty "Each entity instance is related to just one entity instance."  # Generated from value "Each entity instance is related to just one entity instance." located at cell 'Construct'!D43.,
+         c_name_dataproperty "one-to-one relationship"  # Generated from value "one-to-one relationship" located at cell 'Construct'!C43.,
+         c_design_dataproperty "Represented by the normal relation line"  # Generated from value "Represented by the normal relation line" located at cell 'Construct'!E43.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A44.
+   Facts: c_description_dataproperty "Each entity instance is related to multiple entity instances."  # Generated from value "Each entity instance is related to multiple entity instances." located at cell 'Construct'!D44.,
+         c_name_dataproperty "one-to-many relationship"  # Generated from value "one-to-many relationship" located at cell 'Construct'!C44.,
+         c_design_dataproperty "Represente by a crow foot on the relation line on the "many side""  # Generated from value "Represente by a crow foot on the relation line on the "many side"" located at cell 'Construct'!E44.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A45.
+   Facts: c_description_dataproperty "Multiple entity instances are related to multiple entity instances"  # Generated from value "Multiple entity instances are related to multiple entity instances" located at cell 'Construct'!D45.,
+         c_name_dataproperty "many-to-many relationship"  # Generated from value "many-to-many relationship" located at cell 'Construct'!C45.,
+         c_design_dataproperty "Represented by the normal relation line with a crow foot on every edge"  # Generated from value "Represented by the normal relation line with a crow foot on every edge" located at cell 'Construct'!E45.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A46.
+   Facts: c_description_dataproperty "A bar “|” across one end of a relationship line indicates that the relationship is a component of the primary identifier for the entity type at that end."  # Generated from value "A bar “|” across one end of a relationship line indicates that the relationship is a component of the primary identifier for the entity type at that end." located at cell 'Construct'!D46.,
+         c_name_dataproperty "UID bar"  # Generated from value "UID bar" located at cell 'Construct'!C46.,
+         c_design_dataproperty "A bar "|" across one end of a relationship"  # Generated from value "A bar "|" across one end of a relationship" located at cell 'Construct'!E46.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A47.
+   Facts: c_description_dataproperty "In certain situations, once a relationship is set it can never change. For example, BOOK and CHAPTER in the example below. Chapter can’t be moved to a different book. "  # Generated from value "In certain situations, once a relationship is set it can never change. For example, BOOK and CHAPTER in the example below. Chapter can’t be moved to a different book. " located at cell 'Construct'!D47.,
+         c_name_dataproperty "Non-Transferability of Relationships"  # Generated from value "Non-Transferability of Relationships" located at cell 'Construct'!C47.,
+         c_design_dataproperty "Represented by a rhombus across the relationship line"  # Generated from value "Represented by a rhombus across the relationship line" located at cell 'Construct'!E47.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A48.
+   Facts: c_description_dataproperty "Different entities groupped together."  # Generated from value "Different entities groupped together." located at cell 'Construct'!D48.,
+         c_name_dataproperty "super type entity"  # Generated from value "super type entity" located at cell 'Construct'!C48.,
+         c_design_dataproperty "Represented by a rounded corner rectangle with the subentities inside"  # Generated from value "Represented by a rounded corner rectangle with the subentities inside" located at cell 'Construct'!E48.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A49.
+   Facts: c_description_dataproperty "Nested entities in a super entity"  # Generated from value "Nested entities in a super entity" located at cell 'Construct'!D49.,
+         c_name_dataproperty "Subtypes"  # Generated from value "Subtypes" located at cell 'Construct'!C49.,
+         c_design_dataproperty "Represented by a rounded corner rectangle inside the super entity"  # Generated from value "Represented by a rounded corner rectangle inside the super entity" located at cell 'Construct'!E49.
+   Types: Construct
+
+===========================================================================================================
+Date: 2017-12-13 10:39:54
+Ontology source: /Users/Max/Desktop/Sojourner/sojourner.owl
+Worksheet source: /Users/Max/Desktop/ConceptualModel_final.xls
+Transformation rules: /Users/Max/Desktop/Sojourner/minirule.json
+
+# Cell range: (Construct!A2:A+) Comment: ""
+# Individual: @A*(mm:hashEncode)
+# Types: Construct
+# Facts: 	c_description_dataproperty @D*(xsd:string),
+# 	c_name_dataproperty @C*(xsd:string),
+# 	c_design_dataproperty @E*(xsd:string)
+
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A2.
+   Facts: c_name_dataproperty "entity"  # Generated from value "entity" located at cell 'Construct'!C2.,
+         c_design_dataproperty "An entity is represented by a rectangle which contains the entity’s name."  # Generated from value "An entity is represented by a rectangle which contains the entity’s name." located at cell 'Construct'!E2.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A3.
+   Facts: c_description_dataproperty "an entity that cannot be uniquely identified by its attributes alone. The existence of a weak entity is dependent upon another entity called the owner entity. The weak entity’s identifier is a combination of the identifier of the owner entity and the partial key of the weak entity."  # Generated from value "an entity that cannot be uniquely identified by its attributes alone. The existence of a weak entity is dependent upon another entity called the owner entity. The weak entity’s identifier is a combination of the identifier of the owner entity and the partial key of the weak entity." located at cell 'Construct'!D3.,
+         c_name_dataproperty "weak entity"  # Generated from value "weak entity" located at cell 'Construct'!C3.,
+         c_design_dataproperty "A weak entity is represented by a dual rectangle which contains the entity’s name."  # Generated from value "A weak entity is represented by a dual rectangle which contains the entity’s name." located at cell 'Construct'!E3.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A4.
+   Facts: c_description_dataproperty "an entity used in a many-to-many relationship (represents an extra table). All relationships for the associative entity should be many"  # Generated from value "an entity used in a many-to-many relationship (represents an extra table). All relationships for the associative entity should be many" located at cell 'Construct'!D4.,
+         c_name_dataproperty "associative entity"  # Generated from value "associative entity" located at cell 'Construct'!C4.,
+         c_design_dataproperty "An associative entity is represented by a diamond  which contains the entity’s name inside a rectangle."  # Generated from value "An associative entity is represented by a diamond  which contains the entity’s name inside a rectangle." located at cell 'Construct'!E4.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A5.
+   Facts: c_description_dataproperty "An attribute can be formally defined as a function which maps from an entity set or a relationship set into a value set or a Cartesian product of value sets: f: Ei or Ri + Vi or Vi, X Vi, X *-a X Vi,."  # Generated from value "An attribute can be formally defined as a function which maps from an entity set or a relationship set into a value set or a Cartesian product of value sets: f: Ei or Ri + Vi or Vi, X Vi, X *-a X Vi,." located at cell 'Construct'!D5.,
+         c_name_dataproperty "attribute"  # Generated from value "attribute" located at cell 'Construct'!C5.,
+         c_design_dataproperty "An attribute is represented by an oval containing attribute’s name"  # Generated from value "An attribute is represented by an oval containing attribute’s name" located at cell 'Construct'!E5.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A6.
+   Facts: c_description_dataproperty "an attribute that uniquely identifies a particular entity. The name of a key attribute is underscored"  # Generated from value "an attribute that uniquely identifies a particular entity. The name of a key attribute is underscored" located at cell 'Construct'!D6.,
+         c_name_dataproperty "key attribute"  # Generated from value "key attribute" located at cell 'Construct'!C6.,
+         c_design_dataproperty "A key attribute is represented by an oval containing attribute's name that is underscored"  # Generated from value "A key attribute is represented by an oval containing attribute's name that is underscored" located at cell 'Construct'!E6.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A7.
+   Facts: c_description_dataproperty "an attribute that, when combined with the key attribute of the owner entity, provides a unique identification for the weak entity. We underline the discriminator with a dashed line"  # Generated from value "an attribute that, when combined with the key attribute of the owner entity, provides a unique identification for the weak entity. We underline the discriminator with a dashed line" located at cell 'Construct'!D7.,
+         c_name_dataproperty "partial key attribute"  # Generated from value "partial key attribute" located at cell 'Construct'!C7.,
+         c_design_dataproperty "A key attribute is represented by an oval containing attribute's name that is underscored with a dashed line"  # Generated from value "A key attribute is represented by an oval containing attribute's name that is underscored with a dashed line" located at cell 'Construct'!E7.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A8.
+   Facts: c_description_dataproperty " an attribute that can have many values (there are many distinct values entered for it in the same column of the table). Multivalued attribute is depicted by a dual oval"  # Generated from value " an attribute that can have many values (there are many distinct values entered for it in the same column of the table). Multivalued attribute is depicted by a dual oval" located at cell 'Construct'!D8.,
+         c_name_dataproperty "multivalued attribute"  # Generated from value "multivalued attribute" located at cell 'Construct'!C8.,
+         c_design_dataproperty "Multivalued attribute is depicted by a dual ova"  # Generated from value "Multivalued attribute is depicted by a dual ova" located at cell 'Construct'!E8.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A9.
+   Facts: c_description_dataproperty " an attribute whose value is calculated (derived) from other attributes. The derived attribute may or may not be physically stored in the database"  # Generated from value " an attribute whose value is calculated (derived) from other attributes. The derived attribute may or may not be physically stored in the database" located at cell 'Construct'!D9.,
+         c_name_dataproperty "derived attribute"  # Generated from value "derived attribute" located at cell 'Construct'!C9.,
+         c_design_dataproperty "A derived attribute is represented by dashed oval"  # Generated from value "A derived attribute is represented by dashed oval" located at cell 'Construct'!E9.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A10.
+   Facts: c_description_dataproperty "a relationship where Child entity is existence-dependent on parent, and PK of Child Entity contains PK component of Parent Entity"  # Generated from value "a relationship where Child entity is existence-dependent on parent, and PK of Child Entity contains PK component of Parent Entity" located at cell 'Construct'!D10.,
+         c_name_dataproperty "composite attribute"  # Generated from value "composite attribute" located at cell 'Construct'!C10.,
+         c_design_dataproperty "A composite attribute is an attribute composed by different attributes that could be of different type"  # Generated from value "A composite attribute is an attribute composed by different attributes that could be of different type" located at cell 'Construct'!E10.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A11.
+   Facts: c_description_dataproperty "A relationship set, Ri, is a mathematical relation among n entities, each taken from an entity set: (Gel, e2, . . . , e,] 1 el E El, e2 E E2, . . . , e, E En},and each tuple of entities, [el, et, , . . , e,], is a relationship. "  # Generated from value "A relationship set, Ri, is a mathematical relation among n entities, each taken from an entity set: (Gel, e2, . . . , e,] 1 el E El, e2 E E2, . . . , e, E En},and each tuple of entities, [el, et, , . . , e,], is a relationship. " located at cell 'Construct'!D11.,
+         c_name_dataproperty "strong relationship"  # Generated from value "strong relationship" located at cell 'Construct'!C11.,
+         c_design_dataproperty "A strong relationship is represented by a single rhombus"  # Generated from value "A strong relationship is represented by a single rhombus" located at cell 'Construct'!E11.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A12.
+   Facts: c_description_dataproperty "a relationship where Child entity is existence-dependent on parent, and PK of Child Entity contains PK component of Parent Entity"  # Generated from value "a relationship where Child entity is existence-dependent on parent, and PK of Child Entity contains PK component of Parent Entity" located at cell 'Construct'!D12.,
+         c_name_dataproperty "weak relationship"  # Generated from value "weak relationship" located at cell 'Construct'!C12.,
+         c_design_dataproperty "A weak relationship is represented by a double rhombus"  # Generated from value "A weak relationship is represented by a double rhombus" located at cell 'Construct'!E12.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A13.
+   Facts: c_description_dataproperty "A mandatory relationship is a relationship that have to exist"  # Generated from value "A mandatory relationship is a relationship that have to exist" located at cell 'Construct'!D13.,
+         c_name_dataproperty "mandatory relationship"  # Generated from value "mandatory relationship" located at cell 'Construct'!C13.,
+         c_design_dataproperty "A mandatory relationship is represented by a solid line"  # Generated from value "A mandatory relationship is represented by a solid line" located at cell 'Construct'!E13.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A14.
+   Facts: c_description_dataproperty "An optional relationship is a relationship that could exist"  # Generated from value "An optional relationship is a relationship that could exist" located at cell 'Construct'!D14.,
+         c_name_dataproperty "optional relationship"  # Generated from value "optional relationship" located at cell 'Construct'!C14.,
+         c_design_dataproperty "An optional relationship is represented by a dashed line"  # Generated from value "An optional relationship is represented by a dashed line" located at cell 'Construct'!E14.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A15.
+   Facts: c_description_dataproperty "Only a single entity in the set is involved in the relationship with a single entity of the other set"  # Generated from value "Only a single entity in the set is involved in the relationship with a single entity of the other set" located at cell 'Construct'!D15.,
+         c_name_dataproperty "cardinality 1-to-1"  # Generated from value "cardinality 1-to-1" located at cell 'Construct'!C15.,
+         c_design_dataproperty "Represented putting number 1 to both ends of the relationship line"  # Generated from value "Represented putting number 1 to both ends of the relationship line" located at cell 'Construct'!E15.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A16.
+   Facts: c_description_dataproperty "Only a single entity in the set is involved in the relationship with multiple entities of the other set"  # Generated from value "Only a single entity in the set is involved in the relationship with multiple entities of the other set" located at cell 'Construct'!D16.,
+         c_name_dataproperty "cardinality 1-to-many"  # Generated from value "cardinality 1-to-many" located at cell 'Construct'!C16.,
+         c_design_dataproperty "Represented putting number 1 to the end line near the entity with a single element, and put letter N on the other side, near the multiple entity"  # Generated from value "Represented putting number 1 to the end line near the entity with a single element, and put letter N on the other side, near the multiple entity" located at cell 'Construct'!E16.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A17.
+   Facts: c_description_dataproperty "Multiple entities in the set are involved in the relationship with multiple entities of the other set"  # Generated from value "Multiple entities in the set are involved in the relationship with multiple entities of the other set" located at cell 'Construct'!D17.,
+         c_name_dataproperty "cardinality many-to-many"  # Generated from value "cardinality many-to-many" located at cell 'Construct'!C17.,
+         c_design_dataproperty "Represented putting letter N to both ends of the relationship line"  # Generated from value "Represented putting letter N to both ends of the relationship line" located at cell 'Construct'!E17.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A18.
+   Facts: c_description_dataproperty "Total participation means that every entity in the set is involved in the relationship"  # Generated from value "Total participation means that every entity in the set is involved in the relationship" located at cell 'Construct'!D18.,
+         c_name_dataproperty "relationship total participation"  # Generated from value "relationship total participation" located at cell 'Construct'!C18.,
+         c_design_dataproperty "Represented by a dual continuous line"  # Generated from value "Represented by a dual continuous line" located at cell 'Construct'!E18.
+   Types: Construct
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'Construct'!A19.
+   Facts: c_description_dataproperty "Partial participation means that not all entities in the set are involved in the relationship"  # Generated from value "Partial participation means that not all entities in the set are involved in the relationship" located at cell 'Construct'!D19.,
+         c_name_dataproperty "relationship partial participation"  # Generated from value "relationship partial participation" located at cell 'Construct'!C19.,
+         c_design_dataproperty "Represented by a single continuous line"  # Generated from value "Represented by a single continuous line" located at cell 'Construct'!E19.
+   Types: Construct
+Individual: ER-CROWFOOT  # Generated from value "ER-CROWFOOT" located at cell 'Construct'!A20.
+   Facts: c_description_dataproperty "An entity is a representation of a class of object. It can be a person, place, thing, etc. Entities usually have attributes that describe them."  # Generated from value "An entity is a representation of a class of object. It can be a person, place, thing, etc. Entities usually have attributes that describe them." located at cell 'Construct'!D20.,
+         c_name_dataproperty "entity"  # Generated from value "entity" located at cell 'Construct'!C20.,
+         c_design_dataproperty "An entity is represented by a rectangle divided in two horizontal part, with its name on the top. The name is singular (entity) rather than plural (entities)."  # Generated from value "An entity is represented by a rectangle divided in two horizontal part, with its name on the top. The name is singular (entity) rather than plural (entities)." located at cell 'Construct'!E20.
+   Types: Construct
+Individual: ER-CROWFOOT  # Generated from value "ER-CROWFOOT" located at cell 'Construct'!A21.
+   Facts: c_description_dataproperty "An attribute is a property that describes a particular entity."  # Generated from value "An attribute is a property that describes a particular entity." located at cell 'Construct'!D21.,
+         c_name_dataproperty "attribute"  # Generated from value "attribute" located at cell 'Construct'!C21.,
+         c_design_dataproperty "Attribtutes are written in the bottom part of the entity rectangle. The attribute(s) that uniquely distinguishes an instance of the entity is marked with an asterisk"  # Generated from value "Attribtutes are written in the bottom part of the entity rectangle. The attribute(s) that uniquely distinguishes an instance of the entity is marked with an asterisk" located at cell 'Construct'!E21.
+   Types: Construct
+Individual: ER-CROWFOOT  # Generated from value "ER-CROWFOOT" located at cell 'Construct'!A22.
+   Facts: c_description_dataproperty "Relationships illustrate the association between two entities. Usually, each relationship has a name, expressed as a verb, written on the relationship line. This describes what kind of relationship connects the objects."  # Generated from value "Relationships illustrate the association between two entities. Usually, each relationship has a name, expressed as a verb, written on the relationship line. This describes what kind of relationship connects the objects." located at cell 'Construct'!D22.,
+         c_name_dataproperty "relationship"  # Generated from value "relationship" located at cell 'Construct'!C22.,
+         c_design_dataproperty "Represented by a straight line. The relationship has a name, expressed as a verb. "  # Generated from value "Represented by a straight line. The relationship has a name, expressed as a verb. " located at cell 'Construct'!E22.
+   Types: Construct
+Individual: ER-CROWFOOT  # Generated from value "ER-CROWFOOT" located at cell 'Construct'!A23.
+   Facts: c_description_dataproperty "A single instance of an entity can be associated with instances in the related entity."  # Generated from value "A single instance of an entity can be associated with instances in the related entity." located at cell 'Construct'!D23.,
+         c_name_dataproperty "cardinality multiciplicity of one"  # Generated from value "cardinality multiciplicity of one" located at cell 'Construct'!C23.,
+         c_design_dataproperty "Represented by a vertical line on single entity side"  # Generated from value "Represented by a vertical line on single entity side" located at cell 'Construct'!E23.
+   Types: Construct
+Individual: ER-CROWFOOT  # Generated from value "ER-CROWFOOT" located at cell 'Construct'!A24.
+   Facts: c_description_dataproperty "Multiple instances of an entity can be associated with instances of the related entity."  # Generated from value "Multiple instances of an entity can be associated with instances of the related entity." located at cell 'Construct'!D24.,
+         c_name_dataproperty "cardinality multiciplicity of many"  # Generated from value "cardinality multiciplicity of many" located at cell 'Construct'!C24.,
+         c_design_dataproperty "Represented by the three-pronged ‘crow-foot’ symbol"  # Generated from value "Represented by the three-pronged ‘crow-foot’ symbol" located at cell 'Construct'!E24.
+   Types: Construct
+Individual: ER-CROWFOOT  # Generated from value "ER-CROWFOOT" located at cell 'Construct'!A25.
+   Facts: c_description_dataproperty "The number of times one instance can be related to others is zero"  # Generated from value "The number of times one instance can be related to others is zero" located at cell 'Construct'!D25.,
+         c_name_dataproperty "optional relationship"  # Generated from value "optional relationship" located at cell 'Construct'!C25.,
+         c_design_dataproperty "Represented by a perpendicualar line on the relationship line"  # Generated from value "Represented by a perpendicualar line on the relationship line" located at cell 'Construct'!E25.
+   Types: Construct
+Individual: ER-CROWFOOT  # Generated from value "ER-CROWFOOT" located at cell 'Construct'!A26.
+   Facts: c_description_dataproperty "The number of times one instance can be related to others is one"  # Generated from value "The number of times one instance can be related to others is one" located at cell 'Construct'!D26.,
+         c_name_dataproperty "mandatory relationship"  # Generated from value "mandatory relationship" located at cell 'Construct'!C26.,
+         c_design_dataproperty "Represented by an empty circle on the relationship line"  # Generated from value "Represented by an empty circle on the relationship line" located at cell 'Construct'!E26.
+   Types: Construct
+Individual: ER-IDEF1X  # Generated from value "ER-IDEF1X" located at cell 'Construct'!A27.
+   Facts: c_description_dataproperty "Representation of a class whose unique identifier includes at least one relationship to another entity"  # Generated from value "Representation of a class whose unique identifier includes at least one relationship to another entity" located at cell 'Construct'!D27.,
+         c_name_dataproperty "dependent entity"  # Generated from value "dependent entity" located at cell 'Construct'!C27.,
+         c_design_dataproperty "Represented  by a round-cornered rectangle.  The name of the entity is usually situated above the rectangle"  # Generated from value "Represented  by a round-cornered rectangle.  The name of the entity is usually situated above the rectangle" located at cell 'Construct'!E27.
+   Types: Construct
+Individual: ER-IDEF1X  # Generated from value "ER-IDEF1X" located at cell 'Construct'!A28.
+   Facts: c_description_dataproperty "Representation of a class whose identifiers are not derived from other entities"  # Generated from value "Representation of a class whose identifiers are not derived from other entities" located at cell 'Construct'!D28.,
+         c_name_dataproperty "independent entity"  # Generated from value "independent entity" located at cell 'Construct'!C28.,
+         c_design_dataproperty "Represented by a rectangle. The name of the entity is usually situated above the rectangle"  # Generated from value "Represented by a rectangle. The name of the entity is usually situated above the rectangle" located at cell 'Construct'!E28.
+   Types: Construct
+Individual: ER-IDEF1X  # Generated from value "ER-IDEF1X" located at cell 'Construct'!A29.
+   Facts: c_description_dataproperty "A property or characteristic that is common to some or all of the instances of an entity. An attribute represents the use of a domain in the context of an entity."  # Generated from value "A property or characteristic that is common to some or all of the instances of an entity. An attribute represents the use of a domain in the context of an entity." located at cell 'Construct'!D29.,
+         c_name_dataproperty "attribute"  # Generated from value "attribute" located at cell 'Construct'!C29.,
+         c_design_dataproperty "To present attributes, the entity is divided into two parts. In the first one, there are primary key attributes, while the other contains attributes."  # Generated from value "To present attributes, the entity is divided into two parts. In the first one, there are primary key attributes, while the other contains attributes." located at cell 'Construct'!E29.
+   Types: Construct
+Individual: ER-IDEF1X  # Generated from value "ER-IDEF1X" located at cell 'Construct'!A30.
+   Facts: c_description_dataproperty "Zero, one or more instances of the dependent entity are related to an instance of the independent entity"  # Generated from value "Zero, one or more instances of the dependent entity are related to an instance of the independent entity" located at cell 'Construct'!D30.,
+         c_name_dataproperty "relationship zero one or more"  # Generated from value "relationship zero one or more" located at cell 'Construct'!C30.,
+         c_design_dataproperty "A straight line where on the side of the dependent entity there is a full circle"  # Generated from value "A straight line where on the side of the dependent entity there is a full circle" located at cell 'Construct'!E30.
+   Types: Construct
+Individual: ER-IDEF1X  # Generated from value "ER-IDEF1X" located at cell 'Construct'!A31.
+   Facts: c_description_dataproperty "One or more instances of the dependent entity are related to an instance of the independent entity"  # Generated from value "One or more instances of the dependent entity are related to an instance of the independent entity" located at cell 'Construct'!D31.,
+         c_name_dataproperty "relationship one or more"  # Generated from value "relationship one or more" located at cell 'Construct'!C31.,
+         c_design_dataproperty "A straight line where on the side of the dependent entity there is a full circle and the letter P"  # Generated from value "A straight line where on the side of the dependent entity there is a full circle and the letter P" located at cell 'Construct'!E31.
+   Types: Construct
+Individual: ER-IDEF1X  # Generated from value "ER-IDEF1X" located at cell 'Construct'!A32.
+   Facts: c_description_dataproperty "Zero or more instances of the dependent entity are related to an instance of the independent entity"  # Generated from value "Zero or more instances of the dependent entity are related to an instance of the independent entity" located at cell 'Construct'!D32.,
+         c_name_dataproperty "relationship zero or more"  # Generated from value "relationship zero or more" located at cell 'Construct'!C32.,
+         c_design_dataproperty "A straight line where on the side of the dependent entity there is a full circle and the letter Z"  # Generated from value "A straight line where on the side of the dependent entity there is a full circle and the letter Z" located at cell 'Construct'!E32.
+   Types: Construct
+Individual: ER-IDEF1X  # Generated from value "ER-IDEF1X" located at cell 'Construct'!A33.
+   Facts: c_description_dataproperty "Exactly n instances of the dependent entity are related to an instance of the independent entity"  # Generated from value "Exactly n instances of the dependent entity are related to an instance of the independent entity" located at cell 'Construct'!D33.,
+         c_name_dataproperty "relationship exactly n"  # Generated from value "relationship exactly n" located at cell 'Construct'!C33.,
+         c_design_dataproperty "A straight line where on the side of the dependent entity there is a full circle and the letter n"  # Generated from value "A straight line where on the side of the dependent entity there is a full circle and the letter n" located at cell 'Construct'!E33.
+   Types: Construct
+Individual: ER-IDEF1X  # Generated from value "ER-IDEF1X" located at cell 'Construct'!A34.
+   Facts: c_description_dataproperty "A number of instances in range of n to m of the dependent entity are related to an instance of the independent entity"  # Generated from value "A number of instances in range of n to m of the dependent entity are related to an instance of the independent entity" located at cell 'Construct'!D34.,
+         c_name_dataproperty "relationship exactly from n to m"  # Generated from value "relationship exactly from n to m" located at cell 'Construct'!C34.,
+         c_design_dataproperty "A straight line where on the side of the dependent entity there is a full circle and notation n-m"  # Generated from value "A straight line where on the side of the dependent entity there is a full circle and notation n-m" located at cell 'Construct'!E34.
+   Types: Construct
+Individual: ER-IDEF1X  # Generated from value "ER-IDEF1X" located at cell 'Construct'!A35.
+   Facts: c_name_dataproperty "relationship cardinality specified"  # Generated from value "relationship cardinality specified" located at cell 'Construct'!C35.,
+         c_design_dataproperty "A straight line where on the side of the dependent entity there is a full circle and notation {n}"  # Generated from value "A straight line where on the side of the dependent entity there is a full circle and notation {n}" located at cell 'Construct'!E35.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A36.
+   Facts: c_description_dataproperty "describe the characteristics of a particular entity instance"  # Generated from value "describe the characteristics of a particular entity instance" located at cell 'Construct'!D36.,
+         c_name_dataproperty "entity"  # Generated from value "entity" located at cell 'Construct'!C36.,
+         c_design_dataproperty "Represented by a rounded corner rectangle"  # Generated from value "Represented by a rounded corner rectangle" located at cell 'Construct'!E36.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A37.
+   Facts: c_description_dataproperty "Attributes are written inside the entities"  # Generated from value "Attributes are written inside the entities" located at cell 'Construct'!D37.,
+         c_name_dataproperty "attributes"  # Generated from value "attributes" located at cell 'Construct'!C37.,
+         c_design_dataproperty "Written inside the entity"  # Generated from value "Written inside the entity" located at cell 'Construct'!E37.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A38.
+   Facts: c_description_dataproperty "uniquely identifies an entity instance (identified by #)"  # Generated from value "uniquely identifies an entity instance (identified by #)" located at cell 'Construct'!D38.,
+         c_name_dataproperty "Unique Identifier attribute"  # Generated from value "Unique Identifier attribute" located at cell 'Construct'!C38.,
+         c_design_dataproperty "Written inside the entity and identified by #"  # Generated from value "Written inside the entity and identified by #" located at cell 'Construct'!E38.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A39.
+   Facts: c_description_dataproperty " its value cannot be null (identified by *)"  # Generated from value " its value cannot be null (identified by *)" located at cell 'Construct'!D39.,
+         c_name_dataproperty "Mandatory attribute"  # Generated from value "Mandatory attribute" located at cell 'Construct'!C39.,
+         c_design_dataproperty "Written inside the entity and identified by *"  # Generated from value "Written inside the entity and identified by *" located at cell 'Construct'!E39.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A40.
+   Facts: c_description_dataproperty "its value can be null (identified by O)"  # Generated from value "its value can be null (identified by O)" located at cell 'Construct'!D40.,
+         c_name_dataproperty "Optional attribute"  # Generated from value "Optional attribute" located at cell 'Construct'!C40.,
+         c_design_dataproperty "Written inside the entity and identified by O"  # Generated from value "Written inside the entity and identified by O" located at cell 'Construct'!E40.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A41.
+   Facts: c_description_dataproperty "Each instance of an entity must be related to another instance"  # Generated from value "Each instance of an entity must be related to another instance" located at cell 'Construct'!D41.,
+         c_name_dataproperty "mandatory relationship"  # Generated from value "mandatory relationship" located at cell 'Construct'!C41.,
+         c_design_dataproperty "Represented by a straight line"  # Generated from value "Represented by a straight line" located at cell 'Construct'!E41.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A42.
+   Facts: c_description_dataproperty "Each instance of an entity may be related to another instance"  # Generated from value "Each instance of an entity may be related to another instance" located at cell 'Construct'!D42.,
+         c_name_dataproperty "optional relationship"  # Generated from value "optional relationship" located at cell 'Construct'!C42.,
+         c_design_dataproperty "Represented by a dashed line"  # Generated from value "Represented by a dashed line" located at cell 'Construct'!E42.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A43.
+   Facts: c_description_dataproperty "Each entity instance is related to just one entity instance."  # Generated from value "Each entity instance is related to just one entity instance." located at cell 'Construct'!D43.,
+         c_name_dataproperty "one-to-one relationship"  # Generated from value "one-to-one relationship" located at cell 'Construct'!C43.,
+         c_design_dataproperty "Represented by the normal relation line"  # Generated from value "Represented by the normal relation line" located at cell 'Construct'!E43.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A44.
+   Facts: c_description_dataproperty "Each entity instance is related to multiple entity instances."  # Generated from value "Each entity instance is related to multiple entity instances." located at cell 'Construct'!D44.,
+         c_name_dataproperty "one-to-many relationship"  # Generated from value "one-to-many relationship" located at cell 'Construct'!C44.,
+         c_design_dataproperty "Represente by a crow foot on the relation line on the "many side""  # Generated from value "Represente by a crow foot on the relation line on the "many side"" located at cell 'Construct'!E44.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A45.
+   Facts: c_description_dataproperty "Multiple entity instances are related to multiple entity instances"  # Generated from value "Multiple entity instances are related to multiple entity instances" located at cell 'Construct'!D45.,
+         c_name_dataproperty "many-to-many relationship"  # Generated from value "many-to-many relationship" located at cell 'Construct'!C45.,
+         c_design_dataproperty "Represented by the normal relation line with a crow foot on every edge"  # Generated from value "Represented by the normal relation line with a crow foot on every edge" located at cell 'Construct'!E45.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A46.
+   Facts: c_description_dataproperty "A bar “|” across one end of a relationship line indicates that the relationship is a component of the primary identifier for the entity type at that end."  # Generated from value "A bar “|” across one end of a relationship line indicates that the relationship is a component of the primary identifier for the entity type at that end." located at cell 'Construct'!D46.,
+         c_name_dataproperty "UID bar"  # Generated from value "UID bar" located at cell 'Construct'!C46.,
+         c_design_dataproperty "A bar "|" across one end of a relationship"  # Generated from value "A bar "|" across one end of a relationship" located at cell 'Construct'!E46.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A47.
+   Facts: c_description_dataproperty "In certain situations, once a relationship is set it can never change. For example, BOOK and CHAPTER in the example below. Chapter can’t be moved to a different book. "  # Generated from value "In certain situations, once a relationship is set it can never change. For example, BOOK and CHAPTER in the example below. Chapter can’t be moved to a different book. " located at cell 'Construct'!D47.,
+         c_name_dataproperty "Non-Transferability of Relationships"  # Generated from value "Non-Transferability of Relationships" located at cell 'Construct'!C47.,
+         c_design_dataproperty "Represented by a rhombus across the relationship line"  # Generated from value "Represented by a rhombus across the relationship line" located at cell 'Construct'!E47.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A48.
+   Facts: c_description_dataproperty "Different entities groupped together."  # Generated from value "Different entities groupped together." located at cell 'Construct'!D48.,
+         c_name_dataproperty "super type entity"  # Generated from value "super type entity" located at cell 'Construct'!C48.,
+         c_design_dataproperty "Represented by a rounded corner rectangle with the subentities inside"  # Generated from value "Represented by a rounded corner rectangle with the subentities inside" located at cell 'Construct'!E48.
+   Types: Construct
+Individual: ER-BARKER  # Generated from value "ER-BARKER" located at cell 'Construct'!A49.
+   Facts: c_description_dataproperty "Nested entities in a super entity"  # Generated from value "Nested entities in a super entity" located at cell 'Construct'!D49.,
+         c_name_dataproperty "Subtypes"  # Generated from value "Subtypes" located at cell 'Construct'!C49.,
+         c_design_dataproperty "Represented by a rounded corner rectangle inside the super entity"  # Generated from value "Represented by a rounded corner rectangle inside the super entity" located at cell 'Construct'!E49.
+   Types: Construct
+
+===========================================================================================================
+Date: 2017-12-13 10:40:20
+Ontology source: /Users/Max/Desktop/Sojourner/sojourner.owl
+Worksheet source: /Users/Max/Desktop/ConceptualModel_final.xls
+Transformation rules: /Users/Max/Desktop/Sojourner/minirule.json
+
+# Cell range: (Construct!A2:A+) Comment: ""
+# Individual: @E*(mm:hashEncode)
+# Types: Construct
+# Facts: 	c_description_dataproperty @D*(xsd:string),
+# 	c_name_dataproperty @C*(xsd:string),
+# 	c_design_dataproperty @E*(xsd:string)
+
+Individual: An entity is represented by a rectangle which contains the entity’s name.  # Generated from value "An entity is represented by a rectangle which contains the entity’s name." located at cell 'Construct'!E2.
+   Facts: c_name_dataproperty "entity"  # Generated from value "entity" located at cell 'Construct'!C2.,
+         c_design_dataproperty "An entity is represented by a rectangle which contains the entity’s name."  # Generated from value "An entity is represented by a rectangle which contains the entity’s name." located at cell 'Construct'!E2.
+   Types: Construct
+Individual: A weak entity is represented by a dual rectangle which contains the entity’s name.  # Generated from value "A weak entity is represented by a dual rectangle which contains the entity’s name." located at cell 'Construct'!E3.
+   Facts: c_description_dataproperty "an entity that cannot be uniquely identified by its attributes alone. The existence of a weak entity is dependent upon another entity called the owner entity. The weak entity’s identifier is a combination of the identifier of the owner entity and the partial key of the weak entity."  # Generated from value "an entity that cannot be uniquely identified by its attributes alone. The existence of a weak entity is dependent upon another entity called the owner entity. The weak entity’s identifier is a combination of the identifier of the owner entity and the partial key of the weak entity." located at cell 'Construct'!D3.,
+         c_name_dataproperty "weak entity"  # Generated from value "weak entity" located at cell 'Construct'!C3.,
+         c_design_dataproperty "A weak entity is represented by a dual rectangle which contains the entity’s name."  # Generated from value "A weak entity is represented by a dual rectangle which contains the entity’s name." located at cell 'Construct'!E3.
+   Types: Construct
+Individual: An associative entity is represented by a diamond  which contains the entity’s name inside a rectangle.  # Generated from value "An associative entity is represented by a diamond  which contains the entity’s name inside a rectangle." located at cell 'Construct'!E4.
+   Facts: c_description_dataproperty "an entity used in a many-to-many relationship (represents an extra table). All relationships for the associative entity should be many"  # Generated from value "an entity used in a many-to-many relationship (represents an extra table). All relationships for the associative entity should be many" located at cell 'Construct'!D4.,
+         c_name_dataproperty "associative entity"  # Generated from value "associative entity" located at cell 'Construct'!C4.,
+         c_design_dataproperty "An associative entity is represented by a diamond  which contains the entity’s name inside a rectangle."  # Generated from value "An associative entity is represented by a diamond  which contains the entity’s name inside a rectangle." located at cell 'Construct'!E4.
+   Types: Construct
+Individual: An attribute is represented by an oval containing attribute’s name  # Generated from value "An attribute is represented by an oval containing attribute’s name" located at cell 'Construct'!E5.
+   Facts: c_description_dataproperty "An attribute can be formally defined as a function which maps from an entity set or a relationship set into a value set or a Cartesian product of value sets: f: Ei or Ri + Vi or Vi, X Vi, X *-a X Vi,."  # Generated from value "An attribute can be formally defined as a function which maps from an entity set or a relationship set into a value set or a Cartesian product of value sets: f: Ei or Ri + Vi or Vi, X Vi, X *-a X Vi,." located at cell 'Construct'!D5.,
+         c_name_dataproperty "attribute"  # Generated from value "attribute" located at cell 'Construct'!C5.,
+         c_design_dataproperty "An attribute is represented by an oval containing attribute’s name"  # Generated from value "An attribute is represented by an oval containing attribute’s name" located at cell 'Construct'!E5.
+   Types: Construct
+Individual: A key attribute is represented by an oval containing attribute's name that is underscored  # Generated from value "A key attribute is represented by an oval containing attribute's name that is underscored" located at cell 'Construct'!E6.
+   Facts: c_description_dataproperty "an attribute that uniquely identifies a particular entity. The name of a key attribute is underscored"  # Generated from value "an attribute that uniquely identifies a particular entity. The name of a key attribute is underscored" located at cell 'Construct'!D6.,
+         c_name_dataproperty "key attribute"  # Generated from value "key attribute" located at cell 'Construct'!C6.,
+         c_design_dataproperty "A key attribute is represented by an oval containing attribute's name that is underscored"  # Generated from value "A key attribute is represented by an oval containing attribute's name that is underscored" located at cell 'Construct'!E6.
+   Types: Construct
+Individual: A key attribute is represented by an oval containing attribute's name that is underscored with a dashed line  # Generated from value "A key attribute is represented by an oval containing attribute's name that is underscored with a dashed line" located at cell 'Construct'!E7.
+   Facts: c_description_dataproperty "an attribute that, when combined with the key attribute of the owner entity, provides a unique identification for the weak entity. We underline the discriminator with a dashed line"  # Generated from value "an attribute that, when combined with the key attribute of the owner entity, provides a unique identification for the weak entity. We underline the discriminator with a dashed line" located at cell 'Construct'!D7.,
+         c_name_dataproperty "partial key attribute"  # Generated from value "partial key attribute" located at cell 'Construct'!C7.,
+         c_design_dataproperty "A key attribute is represented by an oval containing attribute's name that is underscored with a dashed line"  # Generated from value "A key attribute is represented by an oval containing attribute's name that is underscored with a dashed line" located at cell 'Construct'!E7.
+   Types: Construct
+Individual: Multivalued attribute is depicted by a dual ova  # Generated from value "Multivalued attribute is depicted by a dual ova" located at cell 'Construct'!E8.
+   Facts: c_description_dataproperty " an attribute that can have many values (there are many distinct values entered for it in the same column of the table). Multivalued attribute is depicted by a dual oval"  # Generated from value " an attribute that can have many values (there are many distinct values entered for it in the same column of the table). Multivalued attribute is depicted by a dual oval" located at cell 'Construct'!D8.,
+         c_name_dataproperty "multivalued attribute"  # Generated from value "multivalued attribute" located at cell 'Construct'!C8.,
+         c_design_dataproperty "Multivalued attribute is depicted by a dual ova"  # Generated from value "Multivalued attribute is depicted by a dual ova" located at cell 'Construct'!E8.
+   Types: Construct
+Individual: A derived attribute is represented by dashed oval  # Generated from value "A derived attribute is represented by dashed oval" located at cell 'Construct'!E9.
+   Facts: c_description_dataproperty " an attribute whose value is calculated (derived) from other attributes. The derived attribute may or may not be physically stored in the database"  # Generated from value " an attribute whose value is calculated (derived) from other attributes. The derived attribute may or may not be physically stored in the database" located at cell 'Construct'!D9.,
+         c_name_dataproperty "derived attribute"  # Generated from value "derived attribute" located at cell 'Construct'!C9.,
+         c_design_dataproperty "A derived attribute is represented by dashed oval"  # Generated from value "A derived attribute is represented by dashed oval" located at cell 'Construct'!E9.
+   Types: Construct
+Individual: A composite attribute is an attribute composed by different attributes that could be of different type  # Generated from value "A composite attribute is an attribute composed by different attributes that could be of different type" located at cell 'Construct'!E10.
+   Facts: c_description_dataproperty "a relationship where Child entity is existence-dependent on parent, and PK of Child Entity contains PK component of Parent Entity"  # Generated from value "a relationship where Child entity is existence-dependent on parent, and PK of Child Entity contains PK component of Parent Entity" located at cell 'Construct'!D10.,
+         c_name_dataproperty "composite attribute"  # Generated from value "composite attribute" located at cell 'Construct'!C10.,
+         c_design_dataproperty "A composite attribute is an attribute composed by different attributes that could be of different type"  # Generated from value "A composite attribute is an attribute composed by different attributes that could be of different type" located at cell 'Construct'!E10.
+   Types: Construct
+Individual: A strong relationship is represented by a single rhombus  # Generated from value "A strong relationship is represented by a single rhombus" located at cell 'Construct'!E11.
+   Facts: c_description_dataproperty "A relationship set, Ri, is a mathematical relation among n entities, each taken from an entity set: (Gel, e2, . . . , e,] 1 el E El, e2 E E2, . . . , e, E En},and each tuple of entities, [el, et, , . . , e,], is a relationship. "  # Generated from value "A relationship set, Ri, is a mathematical relation among n entities, each taken from an entity set: (Gel, e2, . . . , e,] 1 el E El, e2 E E2, . . . , e, E En},and each tuple of entities, [el, et, , . . , e,], is a relationship. " located at cell 'Construct'!D11.,
+         c_name_dataproperty "strong relationship"  # Generated from value "strong relationship" located at cell 'Construct'!C11.,
+         c_design_dataproperty "A strong relationship is represented by a single rhombus"  # Generated from value "A strong relationship is represented by a single rhombus" located at cell 'Construct'!E11.
+   Types: Construct
+Individual: A weak relationship is represented by a double rhombus  # Generated from value "A weak relationship is represented by a double rhombus" located at cell 'Construct'!E12.
+   Facts: c_description_dataproperty "a relationship where Child entity is existence-dependent on parent, and PK of Child Entity contains PK component of Parent Entity"  # Generated from value "a relationship where Child entity is existence-dependent on parent, and PK of Child Entity contains PK component of Parent Entity" located at cell 'Construct'!D12.,
+         c_name_dataproperty "weak relationship"  # Generated from value "weak relationship" located at cell 'Construct'!C12.,
+         c_design_dataproperty "A weak relationship is represented by a double rhombus"  # Generated from value "A weak relationship is represented by a double rhombus" located at cell 'Construct'!E12.
+   Types: Construct
+Individual: A mandatory relationship is represented by a solid line  # Generated from value "A mandatory relationship is represented by a solid line" located at cell 'Construct'!E13.
+   Facts: c_description_dataproperty "A mandatory relationship is a relationship that have to exist"  # Generated from value "A mandatory relationship is a relationship that have to exist" located at cell 'Construct'!D13.,
+         c_name_dataproperty "mandatory relationship"  # Generated from value "mandatory relationship" located at cell 'Construct'!C13.,
+         c_design_dataproperty "A mandatory relationship is represented by a solid line"  # Generated from value "A mandatory relationship is represented by a solid line" located at cell 'Construct'!E13.
+   Types: Construct
+Individual: An optional relationship is represented by a dashed line  # Generated from value "An optional relationship is represented by a dashed line" located at cell 'Construct'!E14.
+   Facts: c_description_dataproperty "An optional relationship is a relationship that could exist"  # Generated from value "An optional relationship is a relationship that could exist" located at cell 'Construct'!D14.,
+         c_name_dataproperty "optional relationship"  # Generated from value "optional relationship" located at cell 'Construct'!C14.,
+         c_design_dataproperty "An optional relationship is represented by a dashed line"  # Generated from value "An optional relationship is represented by a dashed line" located at cell 'Construct'!E14.
+   Types: Construct
+Individual: Represented putting number 1 to both ends of the relationship line  # Generated from value "Represented putting number 1 to both ends of the relationship line" located at cell 'Construct'!E15.
+   Facts: c_description_dataproperty "Only a single entity in the set is involved in the relationship with a single entity of the other set"  # Generated from value "Only a single entity in the set is involved in the relationship with a single entity of the other set" located at cell 'Construct'!D15.,
+         c_name_dataproperty "cardinality 1-to-1"  # Generated from value "cardinality 1-to-1" located at cell 'Construct'!C15.,
+         c_design_dataproperty "Represented putting number 1 to both ends of the relationship line"  # Generated from value "Represented putting number 1 to both ends of the relationship line" located at cell 'Construct'!E15.
+   Types: Construct
+Individual: Represented putting number 1 to the end line near the entity with a single element, and put letter N on the other side, near the multiple entity  # Generated from value "Represented putting number 1 to the end line near the entity with a single element, and put letter N on the other side, near the multiple entity" located at cell 'Construct'!E16.
+   Facts: c_description_dataproperty "Only a single entity in the set is involved in the relationship with multiple entities of the other set"  # Generated from value "Only a single entity in the set is involved in the relationship with multiple entities of the other set" located at cell 'Construct'!D16.,
+         c_name_dataproperty "cardinality 1-to-many"  # Generated from value "cardinality 1-to-many" located at cell 'Construct'!C16.,
+         c_design_dataproperty "Represented putting number 1 to the end line near the entity with a single element, and put letter N on the other side, near the multiple entity"  # Generated from value "Represented putting number 1 to the end line near the entity with a single element, and put letter N on the other side, near the multiple entity" located at cell 'Construct'!E16.
+   Types: Construct
+Individual: Represented putting letter N to both ends of the relationship line  # Generated from value "Represented putting letter N to both ends of the relationship line" located at cell 'Construct'!E17.
+   Facts: c_description_dataproperty "Multiple entities in the set are involved in the relationship with multiple entities of the other set"  # Generated from value "Multiple entities in the set are involved in the relationship with multiple entities of the other set" located at cell 'Construct'!D17.,
+         c_name_dataproperty "cardinality many-to-many"  # Generated from value "cardinality many-to-many" located at cell 'Construct'!C17.,
+         c_design_dataproperty "Represented putting letter N to both ends of the relationship line"  # Generated from value "Represented putting letter N to both ends of the relationship line" located at cell 'Construct'!E17.
+   Types: Construct
+Individual: Represented by a dual continuous line  # Generated from value "Represented by a dual continuous line" located at cell 'Construct'!E18.
+   Facts: c_description_dataproperty "Total participation means that every entity in the set is involved in the relationship"  # Generated from value "Total participation means that every entity in the set is involved in the relationship" located at cell 'Construct'!D18.,
+         c_name_dataproperty "relationship total participation"  # Generated from value "relationship total participation" located at cell 'Construct'!C18.,
+         c_design_dataproperty "Represented by a dual continuous line"  # Generated from value "Represented by a dual continuous line" located at cell 'Construct'!E18.
+   Types: Construct
+Individual: Represented by a single continuous line  # Generated from value "Represented by a single continuous line" located at cell 'Construct'!E19.
+   Facts: c_description_dataproperty "Partial participation means that not all entities in the set are involved in the relationship"  # Generated from value "Partial participation means that not all entities in the set are involved in the relationship" located at cell 'Construct'!D19.,
+         c_name_dataproperty "relationship partial participation"  # Generated from value "relationship partial participation" located at cell 'Construct'!C19.,
+         c_design_dataproperty "Represented by a single continuous line"  # Generated from value "Represented by a single continuous line" located at cell 'Construct'!E19.
+   Types: Construct
+Individual: An entity is represented by a rectangle divided in two horizontal part, with its name on the top. The name is singular (entity) rather than plural (entities).  # Generated from value "An entity is represented by a rectangle divided in two horizontal part, with its name on the top. The name is singular (entity) rather than plural (entities)." located at cell 'Construct'!E20.
+   Facts: c_description_dataproperty "An entity is a representation of a class of object. It can be a person, place, thing, etc. Entities usually have attributes that describe them."  # Generated from value "An entity is a representation of a class of object. It can be a person, place, thing, etc. Entities usually have attributes that describe them." located at cell 'Construct'!D20.,
+         c_name_dataproperty "entity"  # Generated from value "entity" located at cell 'Construct'!C20.,
+         c_design_dataproperty "An entity is represented by a rectangle divided in two horizontal part, with its name on the top. The name is singular (entity) rather than plural (entities)."  # Generated from value "An entity is represented by a rectangle divided in two horizontal part, with its name on the top. The name is singular (entity) rather than plural (entities)." located at cell 'Construct'!E20.
+   Types: Construct
+Individual: Attribtutes are written in the bottom part of the entity rectangle. The attribute(s) that uniquely distinguishes an instance of the entity is marked with an asterisk  # Generated from value "Attribtutes are written in the bottom part of the entity rectangle. The attribute(s) that uniquely distinguishes an instance of the entity is marked with an asterisk" located at cell 'Construct'!E21.
+   Facts: c_description_dataproperty "An attribute is a property that describes a particular entity."  # Generated from value "An attribute is a property that describes a particular entity." located at cell 'Construct'!D21.,
+         c_name_dataproperty "attribute"  # Generated from value "attribute" located at cell 'Construct'!C21.,
+         c_design_dataproperty "Attribtutes are written in the bottom part of the entity rectangle. The attribute(s) that uniquely distinguishes an instance of the entity is marked with an asterisk"  # Generated from value "Attribtutes are written in the bottom part of the entity rectangle. The attribute(s) that uniquely distinguishes an instance of the entity is marked with an asterisk" located at cell 'Construct'!E21.
+   Types: Construct
+Individual: Represented by a straight line. The relationship has a name, expressed as a verb.   # Generated from value "Represented by a straight line. The relationship has a name, expressed as a verb. " located at cell 'Construct'!E22.
+   Facts: c_description_dataproperty "Relationships illustrate the association between two entities. Usually, each relationship has a name, expressed as a verb, written on the relationship line. This describes what kind of relationship connects the objects."  # Generated from value "Relationships illustrate the association between two entities. Usually, each relationship has a name, expressed as a verb, written on the relationship line. This describes what kind of relationship connects the objects." located at cell 'Construct'!D22.,
+         c_name_dataproperty "relationship"  # Generated from value "relationship" located at cell 'Construct'!C22.,
+         c_design_dataproperty "Represented by a straight line. The relationship has a name, expressed as a verb. "  # Generated from value "Represented by a straight line. The relationship has a name, expressed as a verb. " located at cell 'Construct'!E22.
+   Types: Construct
+Individual: Represented by a vertical line on single entity side  # Generated from value "Represented by a vertical line on single entity side" located at cell 'Construct'!E23.
+   Facts: c_description_dataproperty "A single instance of an entity can be associated with instances in the related entity."  # Generated from value "A single instance of an entity can be associated with instances in the related entity." located at cell 'Construct'!D23.,
+         c_name_dataproperty "cardinality multiciplicity of one"  # Generated from value "cardinality multiciplicity of one" located at cell 'Construct'!C23.,
+         c_design_dataproperty "Represented by a vertical line on single entity side"  # Generated from value "Represented by a vertical line on single entity side" located at cell 'Construct'!E23.
+   Types: Construct
+Individual: Represented by the three-pronged ‘crow-foot’ symbol  # Generated from value "Represented by the three-pronged ‘crow-foot’ symbol" located at cell 'Construct'!E24.
+   Facts: c_description_dataproperty "Multiple instances of an entity can be associated with instances of the related entity."  # Generated from value "Multiple instances of an entity can be associated with instances of the related entity." located at cell 'Construct'!D24.,
+         c_name_dataproperty "cardinality multiciplicity of many"  # Generated from value "cardinality multiciplicity of many" located at cell 'Construct'!C24.,
+         c_design_dataproperty "Represented by the three-pronged ‘crow-foot’ symbol"  # Generated from value "Represented by the three-pronged ‘crow-foot’ symbol" located at cell 'Construct'!E24.
+   Types: Construct
+Individual: Represented by a perpendicualar line on the relationship line  # Generated from value "Represented by a perpendicualar line on the relationship line" located at cell 'Construct'!E25.
+   Facts: c_description_dataproperty "The number of times one instance can be related to others is zero"  # Generated from value "The number of times one instance can be related to others is zero" located at cell 'Construct'!D25.,
+         c_name_dataproperty "optional relationship"  # Generated from value "optional relationship" located at cell 'Construct'!C25.,
+         c_design_dataproperty "Represented by a perpendicualar line on the relationship line"  # Generated from value "Represented by a perpendicualar line on the relationship line" located at cell 'Construct'!E25.
+   Types: Construct
+Individual: Represented by an empty circle on the relationship line  # Generated from value "Represented by an empty circle on the relationship line" located at cell 'Construct'!E26.
+   Facts: c_description_dataproperty "The number of times one instance can be related to others is one"  # Generated from value "The number of times one instance can be related to others is one" located at cell 'Construct'!D26.,
+         c_name_dataproperty "mandatory relationship"  # Generated from value "mandatory relationship" located at cell 'Construct'!C26.,
+         c_design_dataproperty "Represented by an empty circle on the relationship line"  # Generated from value "Represented by an empty circle on the relationship line" located at cell 'Construct'!E26.
+   Types: Construct
+Individual: Represented  by a round-cornered rectangle.  The name of the entity is usually situated above the rectangle  # Generated from value "Represented  by a round-cornered rectangle.  The name of the entity is usually situated above the rectangle" located at cell 'Construct'!E27.
+   Facts: c_description_dataproperty "Representation of a class whose unique identifier includes at least one relationship to another entity"  # Generated from value "Representation of a class whose unique identifier includes at least one relationship to another entity" located at cell 'Construct'!D27.,
+         c_name_dataproperty "dependent entity"  # Generated from value "dependent entity" located at cell 'Construct'!C27.,
+         c_design_dataproperty "Represented  by a round-cornered rectangle.  The name of the entity is usually situated above the rectangle"  # Generated from value "Represented  by a round-cornered rectangle.  The name of the entity is usually situated above the rectangle" located at cell 'Construct'!E27.
+   Types: Construct
+Individual: Represented by a rectangle. The name of the entity is usually situated above the rectangle  # Generated from value "Represented by a rectangle. The name of the entity is usually situated above the rectangle" located at cell 'Construct'!E28.
+   Facts: c_description_dataproperty "Representation of a class whose identifiers are not derived from other entities"  # Generated from value "Representation of a class whose identifiers are not derived from other entities" located at cell 'Construct'!D28.,
+         c_name_dataproperty "independent entity"  # Generated from value "independent entity" located at cell 'Construct'!C28.,
+         c_design_dataproperty "Represented by a rectangle. The name of the entity is usually situated above the rectangle"  # Generated from value "Represented by a rectangle. The name of the entity is usually situated above the rectangle" located at cell 'Construct'!E28.
+   Types: Construct
+Individual: To present attributes, the entity is divided into two parts. In the first one, there are primary key attributes, while the other contains attributes.  # Generated from value "To present attributes, the entity is divided into two parts. In the first one, there are primary key attributes, while the other contains attributes." located at cell 'Construct'!E29.
+   Facts: c_description_dataproperty "A property or characteristic that is common to some or all of the instances of an entity. An attribute represents the use of a domain in the context of an entity."  # Generated from value "A property or characteristic that is common to some or all of the instances of an entity. An attribute represents the use of a domain in the context of an entity." located at cell 'Construct'!D29.,
+         c_name_dataproperty "attribute"  # Generated from value "attribute" located at cell 'Construct'!C29.,
+         c_design_dataproperty "To present attributes, the entity is divided into two parts. In the first one, there are primary key attributes, while the other contains attributes."  # Generated from value "To present attributes, the entity is divided into two parts. In the first one, there are primary key attributes, while the other contains attributes." located at cell 'Construct'!E29.
+   Types: Construct
+Individual: A straight line where on the side of the dependent entity there is a full circle  # Generated from value "A straight line where on the side of the dependent entity there is a full circle" located at cell 'Construct'!E30.
+   Facts: c_description_dataproperty "Zero, one or more instances of the dependent entity are related to an instance of the independent entity"  # Generated from value "Zero, one or more instances of the dependent entity are related to an instance of the independent entity" located at cell 'Construct'!D30.,
+         c_name_dataproperty "relationship zero one or more"  # Generated from value "relationship zero one or more" located at cell 'Construct'!C30.,
+         c_design_dataproperty "A straight line where on the side of the dependent entity there is a full circle"  # Generated from value "A straight line where on the side of the dependent entity there is a full circle" located at cell 'Construct'!E30.
+   Types: Construct
+Individual: A straight line where on the side of the dependent entity there is a full circle and the letter P  # Generated from value "A straight line where on the side of the dependent entity there is a full circle and the letter P" located at cell 'Construct'!E31.
+   Facts: c_description_dataproperty "One or more instances of the dependent entity are related to an instance of the independent entity"  # Generated from value "One or more instances of the dependent entity are related to an instance of the independent entity" located at cell 'Construct'!D31.,
+         c_name_dataproperty "relationship one or more"  # Generated from value "relationship one or more" located at cell 'Construct'!C31.,
+         c_design_dataproperty "A straight line where on the side of the dependent entity there is a full circle and the letter P"  # Generated from value "A straight line where on the side of the dependent entity there is a full circle and the letter P" located at cell 'Construct'!E31.
+   Types: Construct
+Individual: A straight line where on the side of the dependent entity there is a full circle and the letter Z  # Generated from value "A straight line where on the side of the dependent entity there is a full circle and the letter Z" located at cell 'Construct'!E32.
+   Facts: c_description_dataproperty "Zero or more instances of the dependent entity are related to an instance of the independent entity"  # Generated from value "Zero or more instances of the dependent entity are related to an instance of the independent entity" located at cell 'Construct'!D32.,
+         c_name_dataproperty "relationship zero or more"  # Generated from value "relationship zero or more" located at cell 'Construct'!C32.,
+         c_design_dataproperty "A straight line where on the side of the dependent entity there is a full circle and the letter Z"  # Generated from value "A straight line where on the side of the dependent entity there is a full circle and the letter Z" located at cell 'Construct'!E32.
+   Types: Construct
+Individual: A straight line where on the side of the dependent entity there is a full circle and the letter n  # Generated from value "A straight line where on the side of the dependent entity there is a full circle and the letter n" located at cell 'Construct'!E33.
+   Facts: c_description_dataproperty "Exactly n instances of the dependent entity are related to an instance of the independent entity"  # Generated from value "Exactly n instances of the dependent entity are related to an instance of the independent entity" located at cell 'Construct'!D33.,
+         c_name_dataproperty "relationship exactly n"  # Generated from value "relationship exactly n" located at cell 'Construct'!C33.,
+         c_design_dataproperty "A straight line where on the side of the dependent entity there is a full circle and the letter n"  # Generated from value "A straight line where on the side of the dependent entity there is a full circle and the letter n" located at cell 'Construct'!E33.
+   Types: Construct
+Individual: A straight line where on the side of the dependent entity there is a full circle and notation n-m  # Generated from value "A straight line where on the side of the dependent entity there is a full circle and notation n-m" located at cell 'Construct'!E34.
+   Facts: c_description_dataproperty "A number of instances in range of n to m of the dependent entity are related to an instance of the independent entity"  # Generated from value "A number of instances in range of n to m of the dependent entity are related to an instance of the independent entity" located at cell 'Construct'!D34.,
+         c_name_dataproperty "relationship exactly from n to m"  # Generated from value "relationship exactly from n to m" located at cell 'Construct'!C34.,
+         c_design_dataproperty "A straight line where on the side of the dependent entity there is a full circle and notation n-m"  # Generated from value "A straight line where on the side of the dependent entity there is a full circle and notation n-m" located at cell 'Construct'!E34.
+   Types: Construct
+Individual: A straight line where on the side of the dependent entity there is a full circle and notation {n}  # Generated from value "A straight line where on the side of the dependent entity there is a full circle and notation {n}" located at cell 'Construct'!E35.
+   Facts: c_name_dataproperty "relationship cardinality specified"  # Generated from value "relationship cardinality specified" located at cell 'Construct'!C35.,
+         c_design_dataproperty "A straight line where on the side of the dependent entity there is a full circle and notation {n}"  # Generated from value "A straight line where on the side of the dependent entity there is a full circle and notation {n}" located at cell 'Construct'!E35.
+   Types: Construct
+Individual: Represented by a rounded corner rectangle  # Generated from value "Represented by a rounded corner rectangle" located at cell 'Construct'!E36.
+   Facts: c_description_dataproperty "describe the characteristics of a particular entity instance"  # Generated from value "describe the characteristics of a particular entity instance" located at cell 'Construct'!D36.,
+         c_name_dataproperty "entity"  # Generated from value "entity" located at cell 'Construct'!C36.,
+         c_design_dataproperty "Represented by a rounded corner rectangle"  # Generated from value "Represented by a rounded corner rectangle" located at cell 'Construct'!E36.
+   Types: Construct
+Individual: Written inside the entity  # Generated from value "Written inside the entity" located at cell 'Construct'!E37.
+   Facts: c_description_dataproperty "Attributes are written inside the entities"  # Generated from value "Attributes are written inside the entities" located at cell 'Construct'!D37.,
+         c_name_dataproperty "attributes"  # Generated from value "attributes" located at cell 'Construct'!C37.,
+         c_design_dataproperty "Written inside the entity"  # Generated from value "Written inside the entity" located at cell 'Construct'!E37.
+   Types: Construct
+Individual: Written inside the entity and identified by #  # Generated from value "Written inside the entity and identified by #" located at cell 'Construct'!E38.
+   Facts: c_description_dataproperty "uniquely identifies an entity instance (identified by #)"  # Generated from value "uniquely identifies an entity instance (identified by #)" located at cell 'Construct'!D38.,
+         c_name_dataproperty "Unique Identifier attribute"  # Generated from value "Unique Identifier attribute" located at cell 'Construct'!C38.,
+         c_design_dataproperty "Written inside the entity and identified by #"  # Generated from value "Written inside the entity and identified by #" located at cell 'Construct'!E38.
+   Types: Construct
+Individual: Written inside the entity and identified by *  # Generated from value "Written inside the entity and identified by *" located at cell 'Construct'!E39.
+   Facts: c_description_dataproperty " its value cannot be null (identified by *)"  # Generated from value " its value cannot be null (identified by *)" located at cell 'Construct'!D39.,
+         c_name_dataproperty "Mandatory attribute"  # Generated from value "Mandatory attribute" located at cell 'Construct'!C39.,
+         c_design_dataproperty "Written inside the entity and identified by *"  # Generated from value "Written inside the entity and identified by *" located at cell 'Construct'!E39.
+   Types: Construct
+Individual: Written inside the entity and identified by O  # Generated from value "Written inside the entity and identified by O" located at cell 'Construct'!E40.
+   Facts: c_description_dataproperty "its value can be null (identified by O)"  # Generated from value "its value can be null (identified by O)" located at cell 'Construct'!D40.,
+         c_name_dataproperty "Optional attribute"  # Generated from value "Optional attribute" located at cell 'Construct'!C40.,
+         c_design_dataproperty "Written inside the entity and identified by O"  # Generated from value "Written inside the entity and identified by O" located at cell 'Construct'!E40.
+   Types: Construct
+Individual: Represented by a straight line  # Generated from value "Represented by a straight line" located at cell 'Construct'!E41.
+   Facts: c_description_dataproperty "Each instance of an entity must be related to another instance"  # Generated from value "Each instance of an entity must be related to another instance" located at cell 'Construct'!D41.,
+         c_name_dataproperty "mandatory relationship"  # Generated from value "mandatory relationship" located at cell 'Construct'!C41.,
+         c_design_dataproperty "Represented by a straight line"  # Generated from value "Represented by a straight line" located at cell 'Construct'!E41.
+   Types: Construct
+Individual: Represented by a dashed line  # Generated from value "Represented by a dashed line" located at cell 'Construct'!E42.
+   Facts: c_description_dataproperty "Each instance of an entity may be related to another instance"  # Generated from value "Each instance of an entity may be related to another instance" located at cell 'Construct'!D42.,
+         c_name_dataproperty "optional relationship"  # Generated from value "optional relationship" located at cell 'Construct'!C42.,
+         c_design_dataproperty "Represented by a dashed line"  # Generated from value "Represented by a dashed line" located at cell 'Construct'!E42.
+   Types: Construct
+Individual: Represented by the normal relation line  # Generated from value "Represented by the normal relation line" located at cell 'Construct'!E43.
+   Facts: c_description_dataproperty "Each entity instance is related to just one entity instance."  # Generated from value "Each entity instance is related to just one entity instance." located at cell 'Construct'!D43.,
+         c_name_dataproperty "one-to-one relationship"  # Generated from value "one-to-one relationship" located at cell 'Construct'!C43.,
+         c_design_dataproperty "Represented by the normal relation line"  # Generated from value "Represented by the normal relation line" located at cell 'Construct'!E43.
+   Types: Construct
+Individual: Represente by a crow foot on the relation line on the "many side"  # Generated from value "Represente by a crow foot on the relation line on the "many side"" located at cell 'Construct'!E44.
+   Facts: c_description_dataproperty "Each entity instance is related to multiple entity instances."  # Generated from value "Each entity instance is related to multiple entity instances." located at cell 'Construct'!D44.,
+         c_name_dataproperty "one-to-many relationship"  # Generated from value "one-to-many relationship" located at cell 'Construct'!C44.,
+         c_design_dataproperty "Represente by a crow foot on the relation line on the "many side""  # Generated from value "Represente by a crow foot on the relation line on the "many side"" located at cell 'Construct'!E44.
+   Types: Construct
+Individual: Represented by the normal relation line with a crow foot on every edge  # Generated from value "Represented by the normal relation line with a crow foot on every edge" located at cell 'Construct'!E45.
+   Facts: c_description_dataproperty "Multiple entity instances are related to multiple entity instances"  # Generated from value "Multiple entity instances are related to multiple entity instances" located at cell 'Construct'!D45.,
+         c_name_dataproperty "many-to-many relationship"  # Generated from value "many-to-many relationship" located at cell 'Construct'!C45.,
+         c_design_dataproperty "Represented by the normal relation line with a crow foot on every edge"  # Generated from value "Represented by the normal relation line with a crow foot on every edge" located at cell 'Construct'!E45.
+   Types: Construct
+Individual: A bar "|" across one end of a relationship  # Generated from value "A bar "|" across one end of a relationship" located at cell 'Construct'!E46.
+   Facts: c_description_dataproperty "A bar “|” across one end of a relationship line indicates that the relationship is a component of the primary identifier for the entity type at that end."  # Generated from value "A bar “|” across one end of a relationship line indicates that the relationship is a component of the primary identifier for the entity type at that end." located at cell 'Construct'!D46.,
+         c_name_dataproperty "UID bar"  # Generated from value "UID bar" located at cell 'Construct'!C46.,
+         c_design_dataproperty "A bar "|" across one end of a relationship"  # Generated from value "A bar "|" across one end of a relationship" located at cell 'Construct'!E46.
+   Types: Construct
+Individual: Represented by a rhombus across the relationship line  # Generated from value "Represented by a rhombus across the relationship line" located at cell 'Construct'!E47.
+   Facts: c_description_dataproperty "In certain situations, once a relationship is set it can never change. For example, BOOK and CHAPTER in the example below. Chapter can’t be moved to a different book. "  # Generated from value "In certain situations, once a relationship is set it can never change. For example, BOOK and CHAPTER in the example below. Chapter can’t be moved to a different book. " located at cell 'Construct'!D47.,
+         c_name_dataproperty "Non-Transferability of Relationships"  # Generated from value "Non-Transferability of Relationships" located at cell 'Construct'!C47.,
+         c_design_dataproperty "Represented by a rhombus across the relationship line"  # Generated from value "Represented by a rhombus across the relationship line" located at cell 'Construct'!E47.
+   Types: Construct
+Individual: Represented by a rounded corner rectangle with the subentities inside  # Generated from value "Represented by a rounded corner rectangle with the subentities inside" located at cell 'Construct'!E48.
+   Facts: c_description_dataproperty "Different entities groupped together."  # Generated from value "Different entities groupped together." located at cell 'Construct'!D48.,
+         c_name_dataproperty "super type entity"  # Generated from value "super type entity" located at cell 'Construct'!C48.,
+         c_design_dataproperty "Represented by a rounded corner rectangle with the subentities inside"  # Generated from value "Represented by a rounded corner rectangle with the subentities inside" located at cell 'Construct'!E48.
+   Types: Construct
+Individual: Represented by a rounded corner rectangle inside the super entity  # Generated from value "Represented by a rounded corner rectangle inside the super entity" located at cell 'Construct'!E49.
+   Facts: c_description_dataproperty "Nested entities in a super entity"  # Generated from value "Nested entities in a super entity" located at cell 'Construct'!D49.,
+         c_name_dataproperty "Subtypes"  # Generated from value "Subtypes" located at cell 'Construct'!C49.,
+         c_design_dataproperty "Represented by a rounded corner rectangle inside the super entity"  # Generated from value "Represented by a rounded corner rectangle inside the super entity" located at cell 'Construct'!E49.
+   Types: Construct
+
+===========================================================================================================
+Date: 2017-12-13 10:50:13
+Ontology source: /Users/Max/Desktop/Sojourner/sojourner.owl
+Worksheet source: /Users/Max/Desktop/ConceptualModel_final2.xls
+Transformation rules: /Users/Max/Desktop/Sojourner/minirule.json
+
+# Cell range: (Construct!A2:A+) Comment: ""
+# Individual: @C*(mm:hashEncode)
+# Types: Construct
+# Facts: 	c_description_dataproperty @D*(xsd:string),
+# 	c_name_dataproperty @C*(xsd:string),
+# 	c_design_dataproperty @E*(xsd:string)
+
+Individual: entity  # Generated from value "entity" located at cell 'Construct'!C2.
+   Facts: c_name_dataproperty "entity"  # Generated from value "entity" located at cell 'Construct'!C2.,
+         c_design_dataproperty "An entity is represented by a rectangle which contains the entity’s name."  # Generated from value "An entity is represented by a rectangle which contains the entity’s name." located at cell 'Construct'!E2.
+   Types: Construct
+Individual: weak entity  # Generated from value "weak entity" located at cell 'Construct'!C3.
+   Facts: c_description_dataproperty "an entity that cannot be uniquely identified by its attributes alone. The existence of a weak entity is dependent upon another entity called the owner entity. The weak entity’s identifier is a combination of the identifier of the owner entity and the partial key of the weak entity."  # Generated from value "an entity that cannot be uniquely identified by its attributes alone. The existence of a weak entity is dependent upon another entity called the owner entity. The weak entity’s identifier is a combination of the identifier of the owner entity and the partial key of the weak entity." located at cell 'Construct'!D3.,
+         c_name_dataproperty "weak entity"  # Generated from value "weak entity" located at cell 'Construct'!C3.,
+         c_design_dataproperty "A weak entity is represented by a dual rectangle which contains the entity’s name."  # Generated from value "A weak entity is represented by a dual rectangle which contains the entity’s name." located at cell 'Construct'!E3.
+   Types: Construct
+Individual: associative entity  # Generated from value "associative entity" located at cell 'Construct'!C4.
+   Facts: c_description_dataproperty "an entity used in a many-to-many relationship (represents an extra table). All relationships for the associative entity should be many"  # Generated from value "an entity used in a many-to-many relationship (represents an extra table). All relationships for the associative entity should be many" located at cell 'Construct'!D4.,
+         c_name_dataproperty "associative entity"  # Generated from value "associative entity" located at cell 'Construct'!C4.,
+         c_design_dataproperty "An associative entity is represented by a diamond  which contains the entity’s name inside a rectangle."  # Generated from value "An associative entity is represented by a diamond  which contains the entity’s name inside a rectangle." located at cell 'Construct'!E4.
+   Types: Construct
+Individual: attribute  # Generated from value "attribute" located at cell 'Construct'!C5.
+   Facts: c_description_dataproperty "An attribute can be formally defined as a function which maps from an entity set or a relationship set into a value set or a Cartesian product of value sets: f: Ei or Ri + Vi or Vi, X Vi, X *-a X Vi,."  # Generated from value "An attribute can be formally defined as a function which maps from an entity set or a relationship set into a value set or a Cartesian product of value sets: f: Ei or Ri + Vi or Vi, X Vi, X *-a X Vi,." located at cell 'Construct'!D5.,
+         c_name_dataproperty "attribute"  # Generated from value "attribute" located at cell 'Construct'!C5.,
+         c_design_dataproperty "An attribute is represented by an oval containing attribute’s name"  # Generated from value "An attribute is represented by an oval containing attribute’s name" located at cell 'Construct'!E5.
+   Types: Construct
+Individual: key attribute  # Generated from value "key attribute" located at cell 'Construct'!C6.
+   Facts: c_description_dataproperty "an attribute that uniquely identifies a particular entity. The name of a key attribute is underscored"  # Generated from value "an attribute that uniquely identifies a particular entity. The name of a key attribute is underscored" located at cell 'Construct'!D6.,
+         c_name_dataproperty "key attribute"  # Generated from value "key attribute" located at cell 'Construct'!C6.,
+         c_design_dataproperty "A key attribute is represented by an oval containing attribute's name that is underscored"  # Generated from value "A key attribute is represented by an oval containing attribute's name that is underscored" located at cell 'Construct'!E6.
+   Types: Construct
+Individual: partial key attribute  # Generated from value "partial key attribute" located at cell 'Construct'!C7.
+   Facts: c_description_dataproperty "an attribute that, when combined with the key attribute of the owner entity, provides a unique identification for the weak entity. We underline the discriminator with a dashed line"  # Generated from value "an attribute that, when combined with the key attribute of the owner entity, provides a unique identification for the weak entity. We underline the discriminator with a dashed line" located at cell 'Construct'!D7.,
+         c_name_dataproperty "partial key attribute"  # Generated from value "partial key attribute" located at cell 'Construct'!C7.,
+         c_design_dataproperty "A key attribute is represented by an oval containing attribute's name that is underscored with a dashed line"  # Generated from value "A key attribute is represented by an oval containing attribute's name that is underscored with a dashed line" located at cell 'Construct'!E7.
+   Types: Construct
+Individual: multivalued attribute  # Generated from value "multivalued attribute" located at cell 'Construct'!C8.
+   Facts: c_description_dataproperty " an attribute that can have many values (there are many distinct values entered for it in the same column of the table). Multivalued attribute is depicted by a dual oval"  # Generated from value " an attribute that can have many values (there are many distinct values entered for it in the same column of the table). Multivalued attribute is depicted by a dual oval" located at cell 'Construct'!D8.,
+         c_name_dataproperty "multivalued attribute"  # Generated from value "multivalued attribute" located at cell 'Construct'!C8.,
+         c_design_dataproperty "Multivalued attribute is depicted by a dual ova"  # Generated from value "Multivalued attribute is depicted by a dual ova" located at cell 'Construct'!E8.
+   Types: Construct
+Individual: derived attribute  # Generated from value "derived attribute" located at cell 'Construct'!C9.
+   Facts: c_description_dataproperty " an attribute whose value is calculated (derived) from other attributes. The derived attribute may or may not be physically stored in the database"  # Generated from value " an attribute whose value is calculated (derived) from other attributes. The derived attribute may or may not be physically stored in the database" located at cell 'Construct'!D9.,
+         c_name_dataproperty "derived attribute"  # Generated from value "derived attribute" located at cell 'Construct'!C9.,
+         c_design_dataproperty "A derived attribute is represented by dashed oval"  # Generated from value "A derived attribute is represented by dashed oval" located at cell 'Construct'!E9.
+   Types: Construct
+Individual: composite attribute  # Generated from value "composite attribute" located at cell 'Construct'!C10.
+   Facts: c_description_dataproperty "a relationship where Child entity is existence-dependent on parent, and PK of Child Entity contains PK component of Parent Entity"  # Generated from value "a relationship where Child entity is existence-dependent on parent, and PK of Child Entity contains PK component of Parent Entity" located at cell 'Construct'!D10.,
+         c_name_dataproperty "composite attribute"  # Generated from value "composite attribute" located at cell 'Construct'!C10.,
+         c_design_dataproperty "A composite attribute is an attribute composed by different attributes that could be of different type"  # Generated from value "A composite attribute is an attribute composed by different attributes that could be of different type" located at cell 'Construct'!E10.
+   Types: Construct
+Individual: strong relationship  # Generated from value "strong relationship" located at cell 'Construct'!C11.
+   Facts: c_description_dataproperty "A relationship set, Ri, is a mathematical relation among n entities, each taken from an entity set: (Gel, e2, . . . , e,] 1 el E El, e2 E E2, . . . , e, E En},and each tuple of entities, [el, et, , . . , e,], is a relationship. "  # Generated from value "A relationship set, Ri, is a mathematical relation among n entities, each taken from an entity set: (Gel, e2, . . . , e,] 1 el E El, e2 E E2, . . . , e, E En},and each tuple of entities, [el, et, , . . , e,], is a relationship. " located at cell 'Construct'!D11.,
+         c_name_dataproperty "strong relationship"  # Generated from value "strong relationship" located at cell 'Construct'!C11.,
+         c_design_dataproperty "A strong relationship is represented by a single rhombus"  # Generated from value "A strong relationship is represented by a single rhombus" located at cell 'Construct'!E11.
+   Types: Construct
+Individual: weak relationship  # Generated from value "weak relationship" located at cell 'Construct'!C12.
+   Facts: c_description_dataproperty "a relationship where Child entity is existence-dependent on parent, and PK of Child Entity contains PK component of Parent Entity"  # Generated from value "a relationship where Child entity is existence-dependent on parent, and PK of Child Entity contains PK component of Parent Entity" located at cell 'Construct'!D12.,
+         c_name_dataproperty "weak relationship"  # Generated from value "weak relationship" located at cell 'Construct'!C12.,
+         c_design_dataproperty "A weak relationship is represented by a double rhombus"  # Generated from value "A weak relationship is represented by a double rhombus" located at cell 'Construct'!E12.
+   Types: Construct
+Individual: mandatory relationship  # Generated from value "mandatory relationship" located at cell 'Construct'!C13.
+   Facts: c_description_dataproperty "A mandatory relationship is a relationship that have to exist"  # Generated from value "A mandatory relationship is a relationship that have to exist" located at cell 'Construct'!D13.,
+         c_name_dataproperty "mandatory relationship"  # Generated from value "mandatory relationship" located at cell 'Construct'!C13.,
+         c_design_dataproperty "A mandatory relationship is represented by a solid line"  # Generated from value "A mandatory relationship is represented by a solid line" located at cell 'Construct'!E13.
+   Types: Construct
+Individual: optional relationship  # Generated from value "optional relationship" located at cell 'Construct'!C14.
+   Facts: c_description_dataproperty "An optional relationship is a relationship that could exist"  # Generated from value "An optional relationship is a relationship that could exist" located at cell 'Construct'!D14.,
+         c_name_dataproperty "optional relationship"  # Generated from value "optional relationship" located at cell 'Construct'!C14.,
+         c_design_dataproperty "An optional relationship is represented by a dashed line"  # Generated from value "An optional relationship is represented by a dashed line" located at cell 'Construct'!E14.
+   Types: Construct
+Individual: cardinality 1-to-1  # Generated from value "cardinality 1-to-1" located at cell 'Construct'!C15.
+   Facts: c_description_dataproperty "Only a single entity in the set is involved in the relationship with a single entity of the other set"  # Generated from value "Only a single entity in the set is involved in the relationship with a single entity of the other set" located at cell 'Construct'!D15.,
+         c_name_dataproperty "cardinality 1-to-1"  # Generated from value "cardinality 1-to-1" located at cell 'Construct'!C15.,
+         c_design_dataproperty "Represented putting number 1 to both ends of the relationship line"  # Generated from value "Represented putting number 1 to both ends of the relationship line" located at cell 'Construct'!E15.
+   Types: Construct
+Individual: cardinality 1-to-many  # Generated from value "cardinality 1-to-many" located at cell 'Construct'!C16.
+   Facts: c_description_dataproperty "Only a single entity in the set is involved in the relationship with multiple entities of the other set"  # Generated from value "Only a single entity in the set is involved in the relationship with multiple entities of the other set" located at cell 'Construct'!D16.,
+         c_name_dataproperty "cardinality 1-to-many"  # Generated from value "cardinality 1-to-many" located at cell 'Construct'!C16.,
+         c_design_dataproperty "Represented putting number 1 to the end line near the entity with a single element, and put letter N on the other side, near the multiple entity"  # Generated from value "Represented putting number 1 to the end line near the entity with a single element, and put letter N on the other side, near the multiple entity" located at cell 'Construct'!E16.
+   Types: Construct
+Individual: cardinality many-to-many  # Generated from value "cardinality many-to-many" located at cell 'Construct'!C17.
+   Facts: c_description_dataproperty "Multiple entities in the set are involved in the relationship with multiple entities of the other set"  # Generated from value "Multiple entities in the set are involved in the relationship with multiple entities of the other set" located at cell 'Construct'!D17.,
+         c_name_dataproperty "cardinality many-to-many"  # Generated from value "cardinality many-to-many" located at cell 'Construct'!C17.,
+         c_design_dataproperty "Represented putting letter N to both ends of the relationship line"  # Generated from value "Represented putting letter N to both ends of the relationship line" located at cell 'Construct'!E17.
+   Types: Construct
+Individual: relationship total participation  # Generated from value "relationship total participation" located at cell 'Construct'!C18.
+   Facts: c_description_dataproperty "Total participation means that every entity in the set is involved in the relationship"  # Generated from value "Total participation means that every entity in the set is involved in the relationship" located at cell 'Construct'!D18.,
+         c_name_dataproperty "relationship total participation"  # Generated from value "relationship total participation" located at cell 'Construct'!C18.,
+         c_design_dataproperty "Represented by a dual continuous line"  # Generated from value "Represented by a dual continuous line" located at cell 'Construct'!E18.
+   Types: Construct
+Individual: relationship partial participation  # Generated from value "relationship partial participation" located at cell 'Construct'!C19.
+   Facts: c_description_dataproperty "Partial participation means that not all entities in the set are involved in the relationship"  # Generated from value "Partial participation means that not all entities in the set are involved in the relationship" located at cell 'Construct'!D19.,
+         c_name_dataproperty "relationship partial participation"  # Generated from value "relationship partial participation" located at cell 'Construct'!C19.,
+         c_design_dataproperty "Represented by a single continuous line"  # Generated from value "Represented by a single continuous line" located at cell 'Construct'!E19.
+   Types: Construct
+Individual: entity  # Generated from value "entity" located at cell 'Construct'!C20.
+   Facts: c_description_dataproperty "An entity is a representation of a class of object. It can be a person, place, thing, etc. Entities usually have attributes that describe them."  # Generated from value "An entity is a representation of a class of object. It can be a person, place, thing, etc. Entities usually have attributes that describe them." located at cell 'Construct'!D20.,
+         c_name_dataproperty "entity"  # Generated from value "entity" located at cell 'Construct'!C20.,
+         c_design_dataproperty "An entity is represented by a rectangle divided in two horizontal part, with its name on the top. The name is singular (entity) rather than plural (entities)."  # Generated from value "An entity is represented by a rectangle divided in two horizontal part, with its name on the top. The name is singular (entity) rather than plural (entities)." located at cell 'Construct'!E20.
+   Types: Construct
+Individual: attribute  # Generated from value "attribute" located at cell 'Construct'!C21.
+   Facts: c_description_dataproperty "An attribute is a property that describes a particular entity."  # Generated from value "An attribute is a property that describes a particular entity." located at cell 'Construct'!D21.,
+         c_name_dataproperty "attribute"  # Generated from value "attribute" located at cell 'Construct'!C21.,
+         c_design_dataproperty "Attribtutes are written in the bottom part of the entity rectangle. The attribute(s) that uniquely distinguishes an instance of the entity is marked with an asterisk"  # Generated from value "Attribtutes are written in the bottom part of the entity rectangle. The attribute(s) that uniquely distinguishes an instance of the entity is marked with an asterisk" located at cell 'Construct'!E21.
+   Types: Construct
+Individual: relationship  # Generated from value "relationship" located at cell 'Construct'!C22.
+   Facts: c_description_dataproperty "Relationships illustrate the association between two entities. Usually, each relationship has a name, expressed as a verb, written on the relationship line. This describes what kind of relationship connects the objects."  # Generated from value "Relationships illustrate the association between two entities. Usually, each relationship has a name, expressed as a verb, written on the relationship line. This describes what kind of relationship connects the objects." located at cell 'Construct'!D22.,
+         c_name_dataproperty "relationship"  # Generated from value "relationship" located at cell 'Construct'!C22.,
+         c_design_dataproperty "Represented by a straight line. The relationship has a name, expressed as a verb. "  # Generated from value "Represented by a straight line. The relationship has a name, expressed as a verb. " located at cell 'Construct'!E22.
+   Types: Construct
+Individual: cardinality multiciplicity of one  # Generated from value "cardinality multiciplicity of one" located at cell 'Construct'!C23.
+   Facts: c_description_dataproperty "A single instance of an entity can be associated with instances in the related entity."  # Generated from value "A single instance of an entity can be associated with instances in the related entity." located at cell 'Construct'!D23.,
+         c_name_dataproperty "cardinality multiciplicity of one"  # Generated from value "cardinality multiciplicity of one" located at cell 'Construct'!C23.,
+         c_design_dataproperty "Represented by a vertical line on single entity side"  # Generated from value "Represented by a vertical line on single entity side" located at cell 'Construct'!E23.
+   Types: Construct
+Individual: cardinality multiciplicity of many  # Generated from value "cardinality multiciplicity of many" located at cell 'Construct'!C24.
+   Facts: c_description_dataproperty "Multiple instances of an entity can be associated with instances of the related entity."  # Generated from value "Multiple instances of an entity can be associated with instances of the related entity." located at cell 'Construct'!D24.,
+         c_name_dataproperty "cardinality multiciplicity of many"  # Generated from value "cardinality multiciplicity of many" located at cell 'Construct'!C24.,
+         c_design_dataproperty "Represented by the three-pronged ‘crow-foot’ symbol"  # Generated from value "Represented by the three-pronged ‘crow-foot’ symbol" located at cell 'Construct'!E24.
+   Types: Construct
+Individual: optional relationship  # Generated from value "optional relationship" located at cell 'Construct'!C25.
+   Facts: c_description_dataproperty "The number of times one instance can be related to others is zero"  # Generated from value "The number of times one instance can be related to others is zero" located at cell 'Construct'!D25.,
+         c_name_dataproperty "optional relationship"  # Generated from value "optional relationship" located at cell 'Construct'!C25.,
+         c_design_dataproperty "Represented by a perpendicualar line on the relationship line"  # Generated from value "Represented by a perpendicualar line on the relationship line" located at cell 'Construct'!E25.
+   Types: Construct
+Individual: mandatory relationship  # Generated from value "mandatory relationship" located at cell 'Construct'!C26.
+   Facts: c_description_dataproperty "The number of times one instance can be related to others is one"  # Generated from value "The number of times one instance can be related to others is one" located at cell 'Construct'!D26.,
+         c_name_dataproperty "mandatory relationship"  # Generated from value "mandatory relationship" located at cell 'Construct'!C26.,
+         c_design_dataproperty "Represented by an empty circle on the relationship line"  # Generated from value "Represented by an empty circle on the relationship line" located at cell 'Construct'!E26.
+   Types: Construct
+Individual: dependent entity  # Generated from value "dependent entity" located at cell 'Construct'!C27.
+   Facts: c_description_dataproperty "Representation of a class whose unique identifier includes at least one relationship to another entity"  # Generated from value "Representation of a class whose unique identifier includes at least one relationship to another entity" located at cell 'Construct'!D27.,
+         c_name_dataproperty "dependent entity"  # Generated from value "dependent entity" located at cell 'Construct'!C27.,
+         c_design_dataproperty "Represented  by a round-cornered rectangle.  The name of the entity is usually situated above the rectangle"  # Generated from value "Represented  by a round-cornered rectangle.  The name of the entity is usually situated above the rectangle" located at cell 'Construct'!E27.
+   Types: Construct
+Individual: independent entity  # Generated from value "independent entity" located at cell 'Construct'!C28.
+   Facts: c_description_dataproperty "Representation of a class whose identifiers are not derived from other entities"  # Generated from value "Representation of a class whose identifiers are not derived from other entities" located at cell 'Construct'!D28.,
+         c_name_dataproperty "independent entity"  # Generated from value "independent entity" located at cell 'Construct'!C28.,
+         c_design_dataproperty "Represented by a rectangle. The name of the entity is usually situated above the rectangle"  # Generated from value "Represented by a rectangle. The name of the entity is usually situated above the rectangle" located at cell 'Construct'!E28.
+   Types: Construct
+Individual: attribute  # Generated from value "attribute" located at cell 'Construct'!C29.
+   Facts: c_description_dataproperty "A property or characteristic that is common to some or all of the instances of an entity. An attribute represents the use of a domain in the context of an entity."  # Generated from value "A property or characteristic that is common to some or all of the instances of an entity. An attribute represents the use of a domain in the context of an entity." located at cell 'Construct'!D29.,
+         c_name_dataproperty "attribute"  # Generated from value "attribute" located at cell 'Construct'!C29.,
+         c_design_dataproperty "To present attributes, the entity is divided into two parts. In the first one, there are primary key attributes, while the other contains attributes."  # Generated from value "To present attributes, the entity is divided into two parts. In the first one, there are primary key attributes, while the other contains attributes." located at cell 'Construct'!E29.
+   Types: Construct
+Individual: relationship zero one or more  # Generated from value "relationship zero one or more" located at cell 'Construct'!C30.
+   Facts: c_description_dataproperty "Zero, one or more instances of the dependent entity are related to an instance of the independent entity"  # Generated from value "Zero, one or more instances of the dependent entity are related to an instance of the independent entity" located at cell 'Construct'!D30.,
+         c_name_dataproperty "relationship zero one or more"  # Generated from value "relationship zero one or more" located at cell 'Construct'!C30.,
+         c_design_dataproperty "A straight line where on the side of the dependent entity there is a full circle"  # Generated from value "A straight line where on the side of the dependent entity there is a full circle" located at cell 'Construct'!E30.
+   Types: Construct
+Individual: relationship one or more  # Generated from value "relationship one or more" located at cell 'Construct'!C31.
+   Facts: c_description_dataproperty "One or more instances of the dependent entity are related to an instance of the independent entity"  # Generated from value "One or more instances of the dependent entity are related to an instance of the independent entity" located at cell 'Construct'!D31.,
+         c_name_dataproperty "relationship one or more"  # Generated from value "relationship one or more" located at cell 'Construct'!C31.,
+         c_design_dataproperty "A straight line where on the side of the dependent entity there is a full circle and the letter P"  # Generated from value "A straight line where on the side of the dependent entity there is a full circle and the letter P" located at cell 'Construct'!E31.
+   Types: Construct
+Individual: relationship zero or more  # Generated from value "relationship zero or more" located at cell 'Construct'!C32.
+   Facts: c_description_dataproperty "Zero or more instances of the dependent entity are related to an instance of the independent entity"  # Generated from value "Zero or more instances of the dependent entity are related to an instance of the independent entity" located at cell 'Construct'!D32.,
+         c_name_dataproperty "relationship zero or more"  # Generated from value "relationship zero or more" located at cell 'Construct'!C32.,
+         c_design_dataproperty "A straight line where on the side of the dependent entity there is a full circle and the letter Z"  # Generated from value "A straight line where on the side of the dependent entity there is a full circle and the letter Z" located at cell 'Construct'!E32.
+   Types: Construct
+Individual: relationship exactly n  # Generated from value "relationship exactly n" located at cell 'Construct'!C33.
+   Facts: c_description_dataproperty "Exactly n instances of the dependent entity are related to an instance of the independent entity"  # Generated from value "Exactly n instances of the dependent entity are related to an instance of the independent entity" located at cell 'Construct'!D33.,
+         c_name_dataproperty "relationship exactly n"  # Generated from value "relationship exactly n" located at cell 'Construct'!C33.,
+         c_design_dataproperty "A straight line where on the side of the dependent entity there is a full circle and the letter n"  # Generated from value "A straight line where on the side of the dependent entity there is a full circle and the letter n" located at cell 'Construct'!E33.
+   Types: Construct
+Individual: relationship exactly from n to m  # Generated from value "relationship exactly from n to m" located at cell 'Construct'!C34.
+   Facts: c_description_dataproperty "A number of instances in range of n to m of the dependent entity are related to an instance of the independent entity"  # Generated from value "A number of instances in range of n to m of the dependent entity are related to an instance of the independent entity" located at cell 'Construct'!D34.,
+         c_name_dataproperty "relationship exactly from n to m"  # Generated from value "relationship exactly from n to m" located at cell 'Construct'!C34.,
+         c_design_dataproperty "A straight line where on the side of the dependent entity there is a full circle and notation n-m"  # Generated from value "A straight line where on the side of the dependent entity there is a full circle and notation n-m" located at cell 'Construct'!E34.
+   Types: Construct
+Individual: relationship cardinality specified  # Generated from value "relationship cardinality specified" located at cell 'Construct'!C35.
+   Facts: c_name_dataproperty "relationship cardinality specified"  # Generated from value "relationship cardinality specified" located at cell 'Construct'!C35.,
+         c_design_dataproperty "A straight line where on the side of the dependent entity there is a full circle and notation {n}"  # Generated from value "A straight line where on the side of the dependent entity there is a full circle and notation {n}" located at cell 'Construct'!E35.
+   Types: Construct
+Individual: entity  # Generated from value "entity" located at cell 'Construct'!C36.
+   Facts: c_description_dataproperty "describe the characteristics of a particular entity instance"  # Generated from value "describe the characteristics of a particular entity instance" located at cell 'Construct'!D36.,
+         c_name_dataproperty "entity"  # Generated from value "entity" located at cell 'Construct'!C36.,
+         c_design_dataproperty "Represented by a rounded corner rectangle"  # Generated from value "Represented by a rounded corner rectangle" located at cell 'Construct'!E36.
+   Types: Construct
+Individual: attributes  # Generated from value "attributes" located at cell 'Construct'!C37.
+   Facts: c_description_dataproperty "Attributes are written inside the entities"  # Generated from value "Attributes are written inside the entities" located at cell 'Construct'!D37.,
+         c_name_dataproperty "attributes"  # Generated from value "attributes" located at cell 'Construct'!C37.,
+         c_design_dataproperty "Written inside the entity"  # Generated from value "Written inside the entity" located at cell 'Construct'!E37.
+   Types: Construct
+Individual: Unique Identifier attribute  # Generated from value "Unique Identifier attribute" located at cell 'Construct'!C38.
+   Facts: c_description_dataproperty "uniquely identifies an entity instance (identified by #)"  # Generated from value "uniquely identifies an entity instance (identified by #)" located at cell 'Construct'!D38.,
+         c_name_dataproperty "Unique Identifier attribute"  # Generated from value "Unique Identifier attribute" located at cell 'Construct'!C38.,
+         c_design_dataproperty "Written inside the entity and identified by #"  # Generated from value "Written inside the entity and identified by #" located at cell 'Construct'!E38.
+   Types: Construct
+Individual: Mandatory attribute  # Generated from value "Mandatory attribute" located at cell 'Construct'!C39.
+   Facts: c_description_dataproperty " its value cannot be null (identified by *)"  # Generated from value " its value cannot be null (identified by *)" located at cell 'Construct'!D39.,
+         c_name_dataproperty "Mandatory attribute"  # Generated from value "Mandatory attribute" located at cell 'Construct'!C39.,
+         c_design_dataproperty "Written inside the entity and identified by *"  # Generated from value "Written inside the entity and identified by *" located at cell 'Construct'!E39.
+   Types: Construct
+Individual: Optional attribute  # Generated from value "Optional attribute" located at cell 'Construct'!C40.
+   Facts: c_description_dataproperty "its value can be null (identified by O)"  # Generated from value "its value can be null (identified by O)" located at cell 'Construct'!D40.,
+         c_name_dataproperty "Optional attribute"  # Generated from value "Optional attribute" located at cell 'Construct'!C40.,
+         c_design_dataproperty "Written inside the entity and identified by O"  # Generated from value "Written inside the entity and identified by O" located at cell 'Construct'!E40.
+   Types: Construct
+Individual: mandatory relationship  # Generated from value "mandatory relationship" located at cell 'Construct'!C41.
+   Facts: c_description_dataproperty "Each instance of an entity must be related to another instance"  # Generated from value "Each instance of an entity must be related to another instance" located at cell 'Construct'!D41.,
+         c_name_dataproperty "mandatory relationship"  # Generated from value "mandatory relationship" located at cell 'Construct'!C41.,
+         c_design_dataproperty "Represented by a straight line"  # Generated from value "Represented by a straight line" located at cell 'Construct'!E41.
+   Types: Construct
+Individual: optional relationship  # Generated from value "optional relationship" located at cell 'Construct'!C42.
+   Facts: c_description_dataproperty "Each instance of an entity may be related to another instance"  # Generated from value "Each instance of an entity may be related to another instance" located at cell 'Construct'!D42.,
+         c_name_dataproperty "optional relationship"  # Generated from value "optional relationship" located at cell 'Construct'!C42.,
+         c_design_dataproperty "Represented by a dashed line"  # Generated from value "Represented by a dashed line" located at cell 'Construct'!E42.
+   Types: Construct
+Individual: one-to-one relationship  # Generated from value "one-to-one relationship" located at cell 'Construct'!C43.
+   Facts: c_description_dataproperty "Each entity instance is related to just one entity instance."  # Generated from value "Each entity instance is related to just one entity instance." located at cell 'Construct'!D43.,
+         c_name_dataproperty "one-to-one relationship"  # Generated from value "one-to-one relationship" located at cell 'Construct'!C43.,
+         c_design_dataproperty "Represented by the normal relation line"  # Generated from value "Represented by the normal relation line" located at cell 'Construct'!E43.
+   Types: Construct
+Individual: one-to-many relationship  # Generated from value "one-to-many relationship" located at cell 'Construct'!C44.
+   Facts: c_description_dataproperty "Each entity instance is related to multiple entity instances."  # Generated from value "Each entity instance is related to multiple entity instances." located at cell 'Construct'!D44.,
+         c_name_dataproperty "one-to-many relationship"  # Generated from value "one-to-many relationship" located at cell 'Construct'!C44.,
+         c_design_dataproperty "Represente by a crow foot on the relation line on the "many side""  # Generated from value "Represente by a crow foot on the relation line on the "many side"" located at cell 'Construct'!E44.
+   Types: Construct
+Individual: many-to-many relationship  # Generated from value "many-to-many relationship" located at cell 'Construct'!C45.
+   Facts: c_description_dataproperty "Multiple entity instances are related to multiple entity instances"  # Generated from value "Multiple entity instances are related to multiple entity instances" located at cell 'Construct'!D45.,
+         c_name_dataproperty "many-to-many relationship"  # Generated from value "many-to-many relationship" located at cell 'Construct'!C45.,
+         c_design_dataproperty "Represented by the normal relation line with a crow foot on every edge"  # Generated from value "Represented by the normal relation line with a crow foot on every edge" located at cell 'Construct'!E45.
+   Types: Construct
+Individual: UID bar  # Generated from value "UID bar" located at cell 'Construct'!C46.
+   Facts: c_description_dataproperty "A bar “|” across one end of a relationship line indicates that the relationship is a component of the primary identifier for the entity type at that end."  # Generated from value "A bar “|” across one end of a relationship line indicates that the relationship is a component of the primary identifier for the entity type at that end." located at cell 'Construct'!D46.,
+         c_name_dataproperty "UID bar"  # Generated from value "UID bar" located at cell 'Construct'!C46.,
+         c_design_dataproperty "A bar "|" across one end of a relationship"  # Generated from value "A bar "|" across one end of a relationship" located at cell 'Construct'!E46.
+   Types: Construct
+Individual: Non-Transferability of Relationships  # Generated from value "Non-Transferability of Relationships" located at cell 'Construct'!C47.
+   Facts: c_description_dataproperty "In certain situations, once a relationship is set it can never change. For example, BOOK and CHAPTER in the example below. Chapter can’t be moved to a different book. "  # Generated from value "In certain situations, once a relationship is set it can never change. For example, BOOK and CHAPTER in the example below. Chapter can’t be moved to a different book. " located at cell 'Construct'!D47.,
+         c_name_dataproperty "Non-Transferability of Relationships"  # Generated from value "Non-Transferability of Relationships" located at cell 'Construct'!C47.,
+         c_design_dataproperty "Represented by a rhombus across the relationship line"  # Generated from value "Represented by a rhombus across the relationship line" located at cell 'Construct'!E47.
+   Types: Construct
+Individual: super type entity  # Generated from value "super type entity" located at cell 'Construct'!C48.
+   Facts: c_description_dataproperty "Different entities groupped together."  # Generated from value "Different entities groupped together." located at cell 'Construct'!D48.,
+         c_name_dataproperty "super type entity"  # Generated from value "super type entity" located at cell 'Construct'!C48.,
+         c_design_dataproperty "Represented by a rounded corner rectangle with the subentities inside"  # Generated from value "Represented by a rounded corner rectangle with the subentities inside" located at cell 'Construct'!E48.
+   Types: Construct
+Individual: Subtypes  # Generated from value "Subtypes" located at cell 'Construct'!C49.
+   Facts: c_description_dataproperty "Nested entities in a super entity"  # Generated from value "Nested entities in a super entity" located at cell 'Construct'!D49.,
+         c_name_dataproperty "Subtypes"  # Generated from value "Subtypes" located at cell 'Construct'!C49.,
+         c_design_dataproperty "Represented by a rounded corner rectangle inside the super entity"  # Generated from value "Represented by a rounded corner rectangle inside the super entity" located at cell 'Construct'!E49.
+   Types: Construct
+
+===========================================================================================================
