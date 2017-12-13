@@ -18641,6 +18641,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#ef6bf3fd02c2c92bf0e156d4b5b818ac">
         <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
+        <sojourner:has_addDomain rdf:resource="http://www.semanticweb.org/sojourner#449a6bb013f148e8b77b374e273e852d"/>
         <sojourner:has_author rdf:resource="http://www.semanticweb.org/sojourner#bb6eddd4ada5bb27aeba62e0d3c93198"/>
         <sojourner:is_version rdf:resource="http://www.semanticweb.org/sojourner#1bd3a0484883ca6deaada8395a8f6e85"/>
         <sojourner:produce_a rdf:resource="http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722"/>
@@ -18689,6 +18690,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#f320481f1023bc24b5ddd63df99fdfc0">
         <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
+        <sojourner:has_addDomain rdf:resource="http://www.semanticweb.org/sojourner#97472994a8e5707451952eb7fc84d084"/>
         <sojourner:is_version rdf:resource="http://www.semanticweb.org/sojourner#1bd3a0484883ca6deaada8395a8f6e85"/>
         <has_construct rdf:resource="http://www.semanticweb.org/sojourner#a23a2b0c946552f7d78d82e5f86b2c70"/>
         <has_construct rdf:resource="http://www.semanticweb.org/sojourner#c0bf388777e92faa854bc6d710641ec6"/>
