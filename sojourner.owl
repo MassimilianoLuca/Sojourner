@@ -10338,6 +10338,7 @@ Standards bodies should promote a standard prefix for the identifiers of propert
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#ConceptualModelDiagram"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
     </owl:ObjectProperty>
     
 
@@ -10370,6 +10371,7 @@ Standards bodies should promote a standard prefix for the identifiers of propert
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/orione/sojourner#relational_property"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/sojourner#ConceptualModelDiagram"/>
     </owl:ObjectProperty>
     
@@ -18376,6 +18378,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#a7701bca07b6ad217bf6e199b20b6427">
         <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
+        <sojourner:produce_a rdf:resource="http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722"/>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> an attribute whose value is calculated (derived) from other attributes. The derived attribute may or may not be physically stored in the database</sojourner:c_description_dataproperty>
         <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A derived attribute is represented by dashed oval</sojourner:c_design_dataproperty>
         <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">derived attribute</sojourner:c_name_dataproperty>
@@ -18388,6 +18391,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#a78040161b03e6abfc7235b89d44fd2a">
         <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
+        <sojourner:produce_a rdf:resource="http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722"/>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an attribute that, when combined with the key attribute of the owner entity, provides a unique identification for the weak entity. We underline the discriminator with a dashed line</sojourner:c_description_dataproperty>
         <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A key attribute is represented by an oval containing attribute&apos;s name that is underscored with a dashed line</sojourner:c_design_dataproperty>
         <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial key attribute</sojourner:c_name_dataproperty>
@@ -18412,6 +18416,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#adfd1d21e86658c3b4c9993ae2733041">
         <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
+        <sojourner:produce_a rdf:resource="http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722"/>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A relationship set, Ri, is a mathematical relation among n entities, each taken from an entity set: (Gel, e2, . . . , e,] 1 el E El, e2 E E2, . . . , e, E En},and each tuple of entities, [el, et, , . . , e,], is a relationship. </sojourner:c_description_dataproperty>
         <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A strong relationship is represented by a single rhombus</sojourner:c_design_dataproperty>
         <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">strong relationship</sojourner:c_name_dataproperty>
@@ -18445,10 +18450,21 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
     
 
 
+    <!-- http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#ConceptualModelDiagram"/>
+        <sojourner:d_example_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://drive.google.com/open?id=1iUYPQmz7WnHUN1Ry8GQDQv5UaWoRE2Wj</sojourner:d_example_dataproperty>
+        <rdfs:label>ChenDocumentProduced</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/sojourner#b854a4db8734741dca077464525e8566 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#b854a4db8734741dca077464525e8566">
         <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
+        <sojourner:produce_a rdf:resource="http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722"/>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a relationship where Child entity is existence-dependent on parent, and PK of Child Entity contains PK component of Parent Entity</sojourner:c_description_dataproperty>
         <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A composite attribute is an attribute composed by different attributes that could be of different type</sojourner:c_design_dataproperty>
         <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">composite attribute</sojourner:c_name_dataproperty>
@@ -18472,6 +18488,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#be133c55f4369b4c30cf72b249c97fdd">
         <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
+        <sojourner:produce_a rdf:resource="http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722"/>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multiple entities in the set are involved in the relationship with multiple entities of the other set</sojourner:c_description_dataproperty>
         <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented putting letter N to both ends of the relationship line</sojourner:c_design_dataproperty>
         <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardinality many-to-many</sojourner:c_name_dataproperty>
@@ -18532,6 +18549,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#ca87c635039bbcccdcab48fb59568ad5">
         <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
+        <sojourner:produce_a rdf:resource="http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722"/>
         <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An optional relationship is represented by a dashed line</sojourner:c_design_dataproperty>
         <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented by a dashed line</sojourner:c_design_dataproperty>
         <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">optional relationship</sojourner:c_name_dataproperty>
@@ -18556,6 +18574,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#d2eb444e35c0a71f0a85df8194acb5b6">
         <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
+        <sojourner:produce_a rdf:resource="http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722"/>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property or characteristic that is common to some or all of the instances of an entity. An attribute represents the use of a domain in the context of an entity.</sojourner:c_description_dataproperty>
         <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To present attributes, the entity is divided into two parts. In the first one, there are primary key attributes, while the other contains attributes.</sojourner:c_design_dataproperty>
         <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">attribute</sojourner:c_name_dataproperty>
@@ -18624,6 +18643,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
         <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Version"/>
         <sojourner:has_author rdf:resource="http://www.semanticweb.org/sojourner#bb6eddd4ada5bb27aeba62e0d3c93198"/>
         <sojourner:is_version rdf:resource="http://www.semanticweb.org/sojourner#1bd3a0484883ca6deaada8395a8f6e85"/>
+        <sojourner:produce_a rdf:resource="http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722"/>
         <has_construct rdf:resource="http://www.semanticweb.org/sojourner#a7701bca07b6ad217bf6e199b20b6427"/>
         <has_construct rdf:resource="http://www.semanticweb.org/sojourner#a78040161b03e6abfc7235b89d44fd2a"/>
         <has_construct rdf:resource="http://www.semanticweb.org/sojourner#adfd1d21e86658c3b4c9993ae2733041"/>
@@ -18698,6 +18718,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#f5e638cc78dd325906c1298a0c21fb6b">
         <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
+        <sojourner:produce_a rdf:resource="http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722"/>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">describe the characteristics of a particular entity instance</sojourner:c_description_dataproperty>
         <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented by a rounded corner rectangle</sojourner:c_design_dataproperty>
         <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity</sojourner:c_name_dataproperty>
@@ -18769,6 +18790,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#14fb74c45e38b120770b7a479a8a1727">
         <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
+        <sojourner:produce_a rdf:resource="http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722"/>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an entity that cannot be uniquely identified by its attributes alone. The existence of a weak entity is dependent upon another entity called the owner entity. The weak entity’s identifier is a combination of the identifier of the owner entity and the partial key of the weak entity.</sojourner:c_description_dataproperty>
         <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A weak entity is represented by a dual rectangle which contains the entity’s name.</sojourner:c_design_dataproperty>
         <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">weak entity</sojourner:c_name_dataproperty>
@@ -18850,6 +18872,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#46231d54d59f7cb6854849c51f9fe3e5">
         <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
+        <sojourner:produce_a rdf:resource="http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722"/>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Only a single entity in the set is involved in the relationship with a single entity of the other set</sojourner:c_description_dataproperty>
         <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented putting number 1 to both ends of the relationship line</sojourner:c_design_dataproperty>
         <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardinality 1-to-1</sojourner:c_name_dataproperty>
@@ -18874,6 +18897,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#52bdb0dd1b2b0d077cacc42b6bed53e2">
         <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
+        <sojourner:produce_a rdf:resource="http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722"/>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an entity used in a many-to-many relationship (represents an extra table). All relationships for the associative entity should be many</sojourner:c_description_dataproperty>
         <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An associative entity is represented by a diamond  which contains the entity’s name inside a rectangle.</sojourner:c_design_dataproperty>
         <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">associative entity</sojourner:c_name_dataproperty>
@@ -18898,6 +18922,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#5743cfb9dca68f5f5dfeae93c800f95e">
         <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
+        <sojourner:produce_a rdf:resource="http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722"/>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a relationship where Child entity is existence-dependent on parent, and PK of Child Entity contains PK component of Parent Entity</sojourner:c_description_dataproperty>
         <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A weak relationship is represented by a double rhombus</sojourner:c_design_dataproperty>
         <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">weak relationship</sojourner:c_name_dataproperty>
@@ -18910,6 +18935,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#6ae34c537063d25f1d8511243248e3de">
         <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
+        <sojourner:produce_a rdf:resource="http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722"/>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Total participation means that every entity in the set is involved in the relationship</sojourner:c_description_dataproperty>
         <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented by a dual continuous line</sojourner:c_design_dataproperty>
         <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relationship total participation</sojourner:c_name_dataproperty>
@@ -18922,6 +18948,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#6cd0279785d6010fc29a680620d94a1d">
         <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
+        <sojourner:produce_a rdf:resource="http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722"/>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Only a single entity in the set is involved in the relationship with multiple entities of the other set</sojourner:c_description_dataproperty>
         <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented putting number 1 to the end line near the entity with a single element, and put letter N on the other side, near the multiple entity</sojourner:c_design_dataproperty>
         <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardinality 1-to-many</sojourner:c_name_dataproperty>
@@ -18934,6 +18961,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#7cfae47e28c52673956d1092bcb6110f">
         <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
+        <sojourner:produce_a rdf:resource="http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722"/>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an attribute that uniquely identifies a particular entity. The name of a key attribute is underscored</sojourner:c_description_dataproperty>
         <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A key attribute is represented by an oval containing attribute&apos;s name that is underscored</sojourner:c_design_dataproperty>
         <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">key attribute</sojourner:c_name_dataproperty>
@@ -18994,6 +19022,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#75157cde1ca57e10b99bdb04cd958483">
         <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
+        <sojourner:produce_a rdf:resource="http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722"/>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Each instance of an entity must be related to another instance</sojourner:c_description_dataproperty>
         <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mandatory relationship is represented by a solid line</sojourner:c_design_dataproperty>
         <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mandatory relationship</sojourner:c_name_dataproperty>
@@ -19006,6 +19035,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#75562e2ff6f40a62f7c8985b91cf0f3e">
         <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
+        <sojourner:produce_a rdf:resource="http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722"/>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Partial participation means that not all entities in the set are involved in the relationship</sojourner:c_description_dataproperty>
         <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented by a single continuous line</sojourner:c_design_dataproperty>
         <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relationship partial participation</sojourner:c_name_dataproperty>
@@ -19058,6 +19088,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sojourner#93dd51ab6aec9044be544cb3837f9edb">
         <rdf:type rdf:resource="http://www.semanticweb.org/sojourner#Construct"/>
+        <sojourner:produce_a rdf:resource="http://www.semanticweb.org/sojourner#b4d5485e9879873e7a579667896b8722"/>
         <sojourner:c_description_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> an attribute that can have many values (there are many distinct values entered for it in the same column of the table). Multivalued attribute is depicted by a dual oval</sojourner:c_description_dataproperty>
         <sojourner:c_design_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multivalued attribute is depicted by a dual ova</sojourner:c_design_dataproperty>
         <sojourner:c_name_dataproperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multivalued attribute</sojourner:c_name_dataproperty>

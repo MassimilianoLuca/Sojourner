@@ -2558,3 +2558,19 @@ Individual: Subtypes  # Generated from value "Subtypes" located at cell 'Constru
    Types: Construct
 
 ===========================================================================================================
+Date: 2017-12-13 14:34:55
+Ontology source: /Users/Max/Desktop/Sojourner/sojourner.owl
+Worksheet source: /Users/Max/Desktop/ConceptualModel_final2.xls
+Transformation rules: /Users/Max/Desktop/Sojourner/minirule.json
+
+# Cell range: (DocumentProduced!A2:A+) Comment: ""
+# Individual: @A*(mm:hashEncode)
+# Types: ConceptualModelDiagram
+# Facts: 	d_example_dataproperty @C*(xsd:string),
+# 	d_is_human_readable_dataproperty @D*(xsd:boolean)
+
+Individual: ER-CHEN  # Generated from value "ER-CHEN" located at cell 'DocumentProduced'!A2.
+   Facts: d_example_dataproperty "https://drive.google.com/open?id=1iUYPQmz7WnHUN1Ry8GQDQv5UaWoRE2Wj"  # Generated from value "https://drive.google.com/open?id=1iUYPQmz7WnHUN1Ry8GQDQv5UaWoRE2Wj" located at cell 'DocumentProduced'!C2.
+   Types: ConceptualModelDiagram
+
+===========================================================================================================
